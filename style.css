@@ -1845,7 +1845,15 @@ left:0
     gap: 10px;
     padding: 110px 0px;
   
-}.pillars{
+}.contact-tabs {
+    position: static;       /* remove absolute offsets */
+    top: 0;
+    right: 0;
+    justify-content: center;
+    gap: 10px;
+    padding: 110px 0px;
+}
+.pillars{
     padding:150px 0px;
     margin-left:-150px;
 
