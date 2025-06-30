@@ -1,14 +1,29 @@
 
 
 body, ul {
+    background-color: white;
     margin: 0;
     padding: 0;
 }
+body::after {
+    content: '';
+    display: block;
+    height: 100px; /* Adjust the space */
+    background-color: white;
+}
+
 html {
  
   overflow-x: hidden; /* Prevent horizontal scrolling */
 
+}.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 50px 0;
 }
+
 
 /* Make sure the header sticks to the top */
 header {
@@ -32,7 +47,39 @@ display: block;
 position:relative;
 top:0;
 left:0;
+}.hands-container {
+    display: flex;
+    align-items: center;
+    margin-top: -100px; /* Optional */
+    margin-left: 750px;
+
 }
+
+.blue-line,
+.grey-line {
+    width: 20px;
+    height: 160px;
+}
+
+.blue-line {
+    background-color:#0c3c80;
+    /* margin-right: 10px; ← REMOVE this */
+}
+
+.grey-line {
+    background-color: rgb(128, 128, 128);
+    /* margin-left: 10px; ← REMOVE this */
+}
+
+.hands{
+height: 250px;
+display: block;
+position:absolute;
+top:60px;
+right:300px;
+
+}
+
 .LogoC {
 height: 600px;
 width:800px;
@@ -54,6 +101,7 @@ margin-top: -160px;
   padding: 100px 220px;
    /* or a fixed width like 300px */
   margin-top: -100px;
+  
 
 }
 
@@ -62,7 +110,8 @@ margin-top: -160px;
   color: black;
   font-weight: bold;
   font-size: 30px;
-  padding-left:-500px;
+  padding-left:300px;
+
 
 }.paragraph-one::before {
   content: "";
@@ -73,6 +122,7 @@ margin-top: -160px;
   background-color: #000; 
   margin-bottom: 15px;
   padding-left:-300px;
+ 
 }
 
 
@@ -81,7 +131,7 @@ margin-top: -160px;
   margin-left: 270px; /* shifts paragraph 2 a bit to the right */
   color:black;
   font-size: 20px;
-  padding-left:100px;
+  padding-left:150px;
   
 }
 .paragraph-3 {
@@ -100,15 +150,14 @@ margin-top: -160px;
 .pillars-heading{
     color:#0c3c80;
     text-decoration: underline;
+    
+}.pillars-heading,
+.pillars > p {
+    position: relative;
+    transform: translate(100px, 190px); /* Adjust values as needed */
 }
-.hands{
-height: 250px;
-display: block;
-position:absolute;
-top:60px;
-right:140px;
 
-}
+
 
 
 ul {
@@ -121,7 +170,7 @@ ul {
     justify-content: flex-start;
     align-items: flex-start;
     gap: 20px;
-    margin-top: -310px;       /* safer than -200px */
+    margin-top: -210px;       /* safer than -200px */
     margin-left: 200px;  /* Align to top */
 }
 
@@ -222,7 +271,7 @@ ul {
     
     
 }
-.learn-more-container {
+.learn-more-container a {
     text-align: right;
     margin-top: 50px;
    margin-left: 760px
@@ -236,6 +285,7 @@ ul {
     font-weight: bold;
     border-radius: 0px;
     display: inline-block;
+  
    
 }.icon-box {
   width: 200px;
@@ -515,11 +565,12 @@ ul {
     display: list-item;
 }.service {
   width: 300px;
-  border: 1px solid #ccc;
+ 
   padding: 15px;
   box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
   border-radius: 10px;
   background-color: #0c3c80;
+ 
   
 }.Ourservices {
   display: flex;
@@ -529,7 +580,7 @@ ul {
   padding: 20px;
 }.service h2,
 .service li{
-    color: white;
+    color: black;
     font-size:20px;
 }.imgone{
     margin-top: -6px;
@@ -870,6 +921,14 @@ left:0
     height:200px;
     width:380x;
     
+}.learn-tabs{
+  position:relative;
+  top: -180px;
+  right:-720px;
+  display: flex;
+  gap: 1px;
+  padding: 20px;
+  background-color: transparent;
 }
 
 
@@ -1021,6 +1080,8 @@ left:0
     font-size:20px;
 }.usAbout{
     position: relative;
+    text-align:center;
+    margin-top:100px;
     
 }.finexBack h1{
     color:white;
@@ -1112,10 +1173,19 @@ left:0
 .cta-btn:hover {
   background: #1c57ad;
 }
-.finexBack {
+.tabsF {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  z-index: 3;
+}
+.finexBacks {
   position: relative;
   width: 100%;
-  min-height: 300px;
+  min-height: 100px;
   /* Static fallback if pseudo-elements fail */
   background: url('images/finBack.avif') center/cover no-repeat;
   display: flex;
@@ -1123,7 +1193,44 @@ left:0
   justify-content: center;
   align-items: center;
   padding:40px 20px;
-  margin-top:-200px;
+  margin-top:-100px;
+  text-align: center;
+  color: #fff;               /* make text white */
+  overflow: hidden;
+}
+
+/* 1) Blurred background layer */
+.finexBacks::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: url('images/finBack.avif') center/cover no-repeat;
+  filter: blur(3px);
+  transform: scale(1.1);
+  z-index: 1;                /* behind overlay and text */
+}
+
+/* 2) Dark overlay for contrast */
+.finexBacks::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;                /* between blur and text */
+}
+
+.finexBack {
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  /* Static fallback if pseudo-elements fail */
+  background: url('images/finBack.avif') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:40px 20px;
+  margin-top:150px;
   text-align: center;
   color: #fff;               /* make text white */
   overflow: hidden;
@@ -1150,26 +1257,19 @@ left:0
 }
 
 /* 3) Bring your actual content above both layers */
-.finexBack > * {
+.finexBacks > * {
   position: relative;
   z-index: 3;
-}.tabsF{
-  position:relative;
-  top: -300px;
-  right:-820px;
-  display: flex;
-  gap: 1px;
-  padding: 20px;
-  background-color: transparent;
-}.finexLogo{
+}.finexLogo {
   height: 300px;
   display: block;
-  position:relative;
-  width:500px;
-  top:-80px;
-  left:-50px;
-
-}.finexLogos{
+  position: relative;
+  width: 500px;
+  top: -80px;
+  left: -50px;
+ 
+}
+.finexLogos{
     height:300px;
     width:500px;
     margin-left:-950px;
@@ -1411,7 +1511,7 @@ left:0
   }
 
   /* Address, phone etc */
-  .address2, .address3, .phone1, .phoneapp, .jozi, .durban {
+  .addresses,.address2, .address3, .phone1, .phoneapp, .jozi, .durban {
     padding-left: 0 !important;
     margin: 10px auto !important;
     font-style: italic !important;
@@ -1528,6 +1628,7 @@ left:0
   .Ourservices {
     flex-direction: column;
     align-items: center;
+    
   }
 
   /* Make service boxes full width with some margin */
@@ -1597,12 +1698,8 @@ left:0
   }
 
   /* Address and contact info stack nicely */
-  .addresses,
-  .jozi,
-  .durban {
-    padding: 10px;
-  }
-
+  
+ 
   /* Contact section layout */
   .informationAcc {
     padding: 15px;
@@ -1699,15 +1796,7 @@ left:0
   z-index: 3;
 }
 
-/* Tabs */
-.tabsF {
- position: static;       /* remove absolute offsets */
-    top: 0;
-    right: 0;
-    justify-content: center;
-    gap: 10px;
-    padding: 10px 0;
-}
+
 
 /* Logo */
 .finexLogo {
@@ -1719,30 +1808,6 @@ left:0
   left: -50px;
 }
 
-/* Responsive adjustments */
-@media (max-width: 1024px) {
-  .finexBack {
-    margin-top: -100px;
-    padding: 30px 15px;
-    min-height: 250px;
-  }
-
-  .tabsF {
-    top: -200px;
-    right: -400px;
-    gap: 5px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .finexLogo {
-    height: 220px;
-    width: 350px;
-    top: -50px;
-    left: 0;
-  }
-}
-
 @media (max-width: 768px) {
   .finexBack {
     margin-top: 0;
@@ -1750,72 +1815,71 @@ left:0
     min-height: 220px;
   }
 
-  .tabsF {
-    position: static;       /* remove absolute offsets */
-    top: 0;
-    right: 0;
-    justify-content: center;
-    gap: 10px;
-    padding: 10px 0;
-  }
   .tabsC {
     position: static;       /* remove absolute offsets */
     top: 0;
     right: 0;
     justify-content: center;
     gap: 10px;
-    padding: 100px 0px;
+    padding: 90px 0px;
   }.tabs{
      position: static;       /* remove absolute offsets */
-    top: 0;
+    top: 0x;
     right: 0;
     justify-content: center;
     gap: 10px;
-    padding: 100px 0px;
-  }
-  .Home-tabs{
-    .tabsF,.tabsC {
+    padding: 10px 0px;
+  }.Home-tabs{
     position: static;       /* remove absolute offsets */
     top: 0;
     right: 0;
     justify-content: center;
     gap: 10px;
-    padding: 100px 0;
-  }
-  }
-
-  .finexLogo {
-    height: 180px;
-    width: 280px;
+    padding: 100px 0px;
+  }.tabsF {
+    position: static;       /* remove absolute offsets */
     top: 0;
-    left: 0;
-    margin: 0 auto;
-  }
-}
-
-@media (max-width: 480px) {
-  .finexBack {
-    padding: 15px 8px;
-    min-height: 180px;
-  }
-
-  .finexLogo {
-    height: 140px;
-    width: 220px;
-  }
-
-  .tabsF a{
-    font-size: 14px;
-    padding: 6px 8px;
-  }.tabsC a{
-    font-size: 14px;
-    padding: 1px 1px;
-  }.Home-tabs{
-     font-size: 14px;
-    padding: 1px 1px;
-  }
+    right: 0;
+    justify-content: center;
+    gap: 10px;
+    padding: 110px 0px;
   
+}.pillars{
+    padding:150px 0px;
+    margin-left:-150px;
+
+}.learn-tabs{
+    position: static;       /* remove absolute offsets */
+    top: 0;
+    right: 0;
+    justify-content: center;
+    padding: 110px 0px;
+
+}.Logo3{
+    margin-left:100px;
+}.overview{
+  background-color: rgba(0, 0, 0, 0.6); 
+  padding: 30px;
+  border-radius:10px;
+  max-width: 500px;
+  z-index: 2;
+
+}.learn {
+  background-image: url('images/back3.avif');
+  background-size: cover;
+  background-position: center;
+  height: 140vh;
+  position: relative;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 80px;
 }
+}
+
 
 
 
@@ -1845,4 +1909,3 @@ left:0
 
 
    
-

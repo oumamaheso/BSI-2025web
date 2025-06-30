@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Centered YouTube Video</title>
+  <style>
+    /* Make body fill screen */
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    /* Centering container */
+    .video-container {
+      display: flex;
+      justify-content: center;   /* Horizontal */
+      align-items: center;       /* Vertical */
+      height: 100vh;             /* Full viewport height */
+      background-color: #f0f0f0; /* Just for visibility */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="video-container">
+    <iframe width="600" height="400"
+      src="https://www.youtube.com/embed/DOpxbu_3C2s"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+</body>
+</html>

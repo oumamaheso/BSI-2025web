@@ -15,9 +15,9 @@
                  <a href="index.htm" class="Homepage">BSI SA Home</a>
                   <a href="Acc.htm" class="Homepage">Accounting&Training</a>
                    <a href="college.htm" class="Homepage">College</a>
-                    <a href="contact.htm" class="Homepage">Contact Us</a>
+                    <a href="contact.htm" class="Homepage">Visit Us</a>
             </div>
-                    <div class="finexBack">
+                    <div class="finexBacks">
                     <h1>About Us</h1>
                     <p>For more than seven years, BSI SA FINEX Pty Ltd has been delivering tailored solutions to a diverse range of clients. Based in the vibrant and esteemed Cape Town CBD, our Head Office leads a global, 
                         multidisciplinary team dedicated to building financial success for our clients.</p>
@@ -47,28 +47,17 @@
                             <p>Investing in one or multiple real estate properties can be both rewarding and profitable. Real estate offers numerous advantages, 
                                 including steady rental income and the potential for property value growth over time.</p>
                 </div>
-                <section class="cta-section">
-                    <h2>Ready to Take the Next Step?</h2>
-                    <div class="cta-buttons">
-                    <button id="openForm" class="cta-btn">Book A Consultation</button>
-                    <a href="investment.htm" class="cta-btn">Explore Investment Options</a>
-                    </div>
-                    </section>
-                   <div id="consultationForm" class="modal">
-  <div class="modal-content">
-    <span id="closeForm" class="close">&times;</span>
-    <h3>Book Your Free Consultation</h3>
-   <form action="submitConsultation.php" method="POST">
-  <input type="text" name="fullname" placeholder="Full Name" required><br>
-  <input type="email" name="email" placeholder="Email" required><br>
-  <input type="date" name="date" required><br>
-  <button type="submit">Submit</button>
-</form>
+   
 
-  </div>
-</div>
-
+  <div class="faq-boarder">
+                <h2 class="faq-heading">Ask a Question</h2>
+                <input type="text" id="faqInput" placeholder="Type your question..." class="faq-input">
+                <button onclick="searchFAQ()">Ask</button>
+                <p id="faqAnswer" class="faq-response"></p>
                 </div>
+                  
+
+                
                  <div class="logo2">
     <img src="images/logo.png" class="logos2Acc">
  
@@ -133,25 +122,58 @@
             </div>
             <img src="images/shake.webp" class="socia">
             </header>
-           <script>
-  const modal = document.getElementById('consultationForm');
-  const openBtn = document.getElementById('openForm');
-  const closeBtn = document.getElementById('closeForm');
+ 
+ <script>
+    function searchFAQ() {
+        const input = document.getElementById("faqInput").value.toLowerCase().trim();
+        const output = document.getElementById("faqAnswer");
 
-  openBtn.onclick = () => {
-    modal.style.display = 'block';
-  };
+        const responses = [
+            {
+                keywords: ["services", "offer", "provide"],
+                answer: "We offer accounting, business registration, tax consulting, payroll, and Xero training."
+            },
+            {
+                keywords: ["location", "located", "offices", "branches", "where are you"],
+                answer: "We have offices in Cape Town, Johannesburg, and Durban."
+            },
+            {
+                keywords: ["contact", "email", "phone", "whatsapp", "reach you"],
+                answer: "You can contact us via email at info@bsisa.co.za or on WhatsApp at +27 67 273 6847."
+            },
+            {
+                keywords: ["office hours", "working hours", "open", "close"],
+                answer: "Our office hours are Monday–Thursday 08:00–17:00, and Friday 08:00–15:30."
+            },
+            {
+                keywords: ["weekend", "appointment", "saturday", "sunday"],
+                answer: "Yes, weekends are available by appointment or prior arrangement."
+            },
+            {
+                keywords: ["xero", "training", "software"],
+                answer: "Xero training includes both basic and advanced courses in using Xero accounting software."
+            }
+        ];
 
-  closeBtn.onclick = () => {
-    modal.style.display = 'none';
-  };
+        const matchedAnswers = new Set();
 
-  window.onclick = (e) => {
-    if (e.target === modal) {
-      modal.style.display = 'none';
+        for (const item of responses) {
+            for (const keyword of item.keywords) {
+                if (input.includes(keyword)) {
+                    matchedAnswers.add(item.answer);
+                    break;
+                }
+            }
+        }
+
+        if (matchedAnswers.size > 0) {
+            output.innerHTML = [...matchedAnswers].map(ans => `• ${ans}`).join("<br><br>");
+        } else {
+            output.textContent = "Sorry, we couldn't find an answer to your question. Please contact us directly.";
+        }
     }
-  };
 </script>
+
  
         </body>
 </html>
