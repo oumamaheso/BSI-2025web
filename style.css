@@ -1802,7 +1802,7 @@ left:0
 /* Logo */
 .finexLogo {
   height: 300px;
-  width: 500px;
+  width: 400px;
   display: block;
   position: relative;
   top: -80px;
@@ -1913,7 +1913,27 @@ left:0
     margin-top: 300px;
    
 
-}}
+}.contact-logo{
+    width: 300px;
+}.finexBacks {
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  /* Static fallback if pseudo-elements fail */
+  background: url('images/finBack.avif') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:100px 0px;
+  margin-top:-100px;
+  text-align: center;
+  color: #fff;               /* make text white */
+  overflow: hidden;
+}
+
+}
+
 
 
 
