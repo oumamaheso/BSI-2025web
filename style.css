@@ -1883,9 +1883,13 @@ left:0
 .imgfour,
 .imgfive
 {
-    width: 250px;
+    width: 50px;
     height: 190px;
 }.aboutBSI{
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
   flex-direction: column;
   align-items: center;  
 }.get-inAcc{
