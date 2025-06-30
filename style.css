@@ -1884,7 +1884,7 @@ left:0
 .imgfour,
 .imgfive
 {
-    width: 250px;
+    width: 850px;
     height: 190px;
 }.aboutBSI{
   display: flex;
@@ -1893,7 +1893,7 @@ left:0
   justify-content: center;
   flex-direction: column;
   align-items: center; 
-  margin-left :500px;;
+  margin-left :300px;;
 
   
 }
