@@ -1350,7 +1350,7 @@ left:0
   .logo-header {
     margin: 20px 0 !important;
     text-align: center !important;
-    font-size: 24px !important;
+    font-size:40 !important;
     margin-left: 0 !important;
   }
 
@@ -1868,39 +1868,20 @@ left:0
     padding: 110px 0px;
 
 }.Logo3{
-    margin-left:100px;
+    margin-left:150px;
     width:200px;
-}.overview{
-  position: relative;
-  background-color: rgba(0, 0, 0, 0.6); 
-  padding:0px;
-  border-radius: 0px;
-
-  margin-left:-80px;
-
-}.overview p{
-  margin-left:20px;
-
-
-
 }.learn {
-  background-image: url('images/back3.avif');
-  background-size: cover;
-  background-position: center;
-  height: 140vh;
-  position: relative;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-  padding:60px;
-  
- 
+    padding: 20px;
+    height: auto;
+    background-size: cover;
+  }
 
- 
-}.imgone,
+  .overview {
+    padding: 15px;
+    max-width: 100%;
+    font-size: 16px;
+  }
+.imgone,
 .imgtwo,
 .imgthree,
 .imgfour,
@@ -1964,8 +1945,10 @@ left:0
   margin-left:-20px;
   width:300px;
 }
-
+  
 }
+
+
 
 
 
