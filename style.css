@@ -1,6 +1,6 @@
 
 
-body, ul {
+body {
     background-color: white;
     margin: 0;
     padding: 0;
@@ -578,9 +578,12 @@ ul {
   gap: 20px;
   justify-content: center;
   padding: 20px;
-}.service h2,
+}.service h2{
+  color: white;
+    font-size:25px;
+}
 .service li{
-    color: black;
+    color: white;
     font-size:20px;
 }.imgone{
     margin-top: -6px;
@@ -1892,7 +1895,7 @@ left:0
 .imgfour,
 .imgfive
 {
-    width: 850px;
+    width: 200px;
     height: 190px;
 }.aboutBSI{
   display: flex;
@@ -1901,10 +1904,14 @@ left:0
   justify-content: center;
   flex-direction: column;
   align-items: center; 
-  margin-left :270px;;
+ 
 
   
+}.aboutBSI p{
+    margin-left:-50px;
+
 }
+
 .get-inAcc{
      display: flex;
     align-items: center;
@@ -1930,6 +1937,9 @@ left:0
   text-align: center;
   color: #fff;               /* make text white */
   overflow: hidden;
+}.service h2{
+  color: white;
+    font-size:25px;
 }
 
 }
