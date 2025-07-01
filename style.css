@@ -1870,11 +1870,17 @@ left:0
 }.Logo3{
     margin-left:100px;
 }.overview{
+  position: relative;
   background-color: rgba(0, 0, 0, 0.6); 
-  padding: 30px;
-  border-radius:10px;
-  max-width: 500px;
-  z-index: 2;
+  padding:0px;
+  border-radius: 0px;
+
+  margin-left:-80px;
+
+}.overview p{
+  margin-left:20px;
+
+
 
 }.learn {
   background-image: url('images/back3.avif');
@@ -1888,7 +1894,11 @@ left:0
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  padding: 60px;
+  padding:60px;
+  
+ 
+
+ 
 }.imgone,
 .imgtwo,
 .imgthree,
@@ -1948,6 +1958,9 @@ left:0
     position: relative !important;
     top: 0 !important;
     left: -30px !important;
+}.Logo3{
+  margin-left:-10px;
+  width:300px;
 }
 
 }
