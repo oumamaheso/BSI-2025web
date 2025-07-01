@@ -1869,6 +1869,7 @@ left:0
 
 }.Logo3{
     margin-left:100px;
+    width:200px;
 }.overview{
   position: relative;
   background-color: rgba(0, 0, 0, 0.6); 
@@ -1959,7 +1960,8 @@ left:0
     top: 0 !important;
     left: -30px !important;
 }.Logo3{
-  margin-left:-10px;
+  position: relative;
+  margin-left:-20px;
   width:300px;
 }
 
