@@ -1336,7 +1336,7 @@ left:0
   }
 
   /* Logos */
-  .logo,
+  
   .LogoC {
     height: auto !important;
     max-width: 90vw !important;
@@ -1858,7 +1858,7 @@ left:0
 }
 .pillars{
     padding:150px 0px;
-    margin-left:-150px;
+    margin-left:-200px;
 
 }.learn-tabs{
     position: static;       /* remove absolute offsets */
@@ -1909,6 +1909,7 @@ left:0
   
 }.aboutBSI p{
     margin-left:-50px;
+    margin-top:-10px;
 
 }
 
@@ -1940,6 +1941,13 @@ left:0
 }.service h2{
   color: white;
     font-size:25px;
+}.logo {
+ height: auto !important;
+    max-width: 90vw !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    top: 0 !important;
+    left: -30px !important;
 }
 
 }
