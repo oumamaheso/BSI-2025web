@@ -125,12 +125,9 @@
   <input type="text" name="fullname" placeholder="Full Name" required><br>
   <input type="email" name="email" placeholder="Email" required><br>
   <textarea name="message" placeholder="What would you like to consult about?" rows="5" required></textarea><br>
-  <input type="date" name="date" id="currentDate" required readonly><br>
   <button type="submit">Submit</button>
 </form>
-<script>
-  document.getElementById('currentDate').value = new Date().toISOString().split('T')[0];
-</script>
+
 
   </div>
 </div>
