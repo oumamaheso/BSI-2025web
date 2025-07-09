@@ -1,7 +1,7 @@
 
 
 body {
-    background-color: white;
+    background-color:white;
     margin: 0;
     padding: 0;
 }
@@ -11,6 +11,15 @@ body::after {
     height: 100px; /* Adjust the space */
     background-color: white;
 }
+.color {
+  background-color:grey;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  color:white;
+}
+
+
 
 html {
  
@@ -49,7 +58,7 @@ header {
     align-items: flex-start;
 }
 .logo {
-height: 200px;
+height: 150px;
 display: block;
 position:relative;
 top:0;
@@ -83,7 +92,7 @@ height: 250px;
 display: block;
 position:absolute;
 top:60px;
-right:300px;
+right:330px;
 
 }
 
@@ -280,8 +289,10 @@ ul {
 }
 .learn-more-container a {
     text-align: right;
-    margin-top: 50px;
-   margin-left: 760px
+    margin-top: 90px;
+   margin-left: 735px;
+   font-size:20px;
+   
 }
 
 .learn-more-button {
@@ -462,7 +473,7 @@ ul {
 }.phoneapp{
     position:relative; 
     padding-left: 40px;
-    margin-top: -30px;
+    margin-top: -40px;
 }
 .container1 {
     display: flex;
@@ -472,15 +483,15 @@ ul {
 .information{
     
     flex:1;
-    padding-left:50px;
+    padding-left:190px;
     margin-top: 40px;
     font-size:25px;
    
     
 }.hours{
     flex:1;
-    border-right:2px solid blue;
-    padding-right: 30px;
+    border-right:2px solid white;
+    padding-left:-200px;
     margin-top: 20px;
    
 }.social{
@@ -506,9 +517,10 @@ ul {
     height:20px;
 }.information1{
     position:relative; 
-    padding-left: 30px;
-    margin-top: -30px;
-}.media{
+    padding-left: 40px;
+    margin-top: -40px;
+}
+.media{
     font-size:20px;
 }.testimonial-header {
     display: flex;
@@ -538,12 +550,13 @@ ul {
     gap: 10px;
     margin: 40px 0;
     margin-top: 100px;
+    margin-left:-800px;
  
 }.get-in h2 {
     text-align: center;
     font-size: 28px;
     font-weight: 800;
-    color: #0c3c80; /* dark blue */
+    color: white;
     line-height: 1.2;
     margin: 0;
 }
@@ -551,7 +564,7 @@ ul {
 .left-touch, .right-touch{
     font-size: 20px;
     font-weight: bold;
-    color: #0c3c80;
+    color: white;
    
 }.imgone,
 .imgtwo,
@@ -638,21 +651,14 @@ left:0
 .Homepage{
   text-decoration: none;
   padding: 10px 20px;
-  color:wheat;
-  background-color:#0c3c80;
-  border: 1px solid #ccc;
-  border-radius: 0px;
-  font-weight: 600;
-  font-size: 15px;
-  transition: all 0.3s ease;
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.05);
- 
-
-    
+  font-size:20px;
+  color: #0c3c80;
+   
 }
 
 .Homepage:hover {
-  color:white;
+ 
+  text-decoration:underline;
 
 }.WhyUs{
   
@@ -686,14 +692,14 @@ left:0
     margin-top: 300px;
 }
 .get-inAcc h2{
-    color:#0c3c80;
+    color:white;
 }
  .logos2Acc{
     position: absolute;
-    margin-top:280px;
+    margin-top:80px;
     padding-left: 1090px;
     filter: blur(1px);
-    height:100px
+    height:80px
    
 }.informationAcc{
     flex:2.3;
@@ -946,8 +952,8 @@ left:0
 
 .Home-tabs{
   position:relative;
-  top: -220px;
-  right:-720px;
+  top: -180px;
+  right:-690px;
   display: flex;
   gap: 1px;
   padding: 20px;
@@ -1291,7 +1297,7 @@ left:0
 }.contact-tabs{
   position:relative;
   top: -200px;
-  right:-820px;
+  right:-720px;
   display: flex;
   gap: 1px;
   padding: 20px;
@@ -1662,10 +1668,7 @@ left:0
   .Homepage {
     padding: 6px 12px; /* smaller padding */
     font-size: 14px;   /* smaller font */
-    border: 1px solid #0c3c80; /* consistent border */
-    box-shadow: none;
-    border-radius: 0;
-    white-space: nowrap;
+   
   }
 
   /* Adjust FAQ boarder */
@@ -1741,9 +1744,7 @@ left:0
   .tabs a {
     font-size: 14px;
     padding: 8px 10px;
-    border: 1px solid #0c3c80; /* consistent border */
-    box-shadow: none;
-    border-radius: 0;
+   
   }
 
   /* FAQ boarder for smallest screens */
