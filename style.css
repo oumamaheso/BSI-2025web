@@ -592,12 +592,11 @@ ul {
     margin-bottom: 6px;
     display: list-item;
 }.service {
-  width: 300px;
- 
-  padding: 15px;
+  width: 320px;
+  padding: 0px;
   box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
-  border-radius: 10px;
-  background-color: #0c3c80;
+  border-radius: 0px;
+  background-color:white;
  
   
 }.Ourservices {
@@ -607,11 +606,12 @@ ul {
   justify-content: center;
   padding: 20px;
 }.service h2{
-  color: white;
-    font-size:25px;
+  color:black;
+  font-size:25px;
+  text-align: center;
 }
 .service li{
-    color: white;
+    color: black;
     font-size:20px;
 }.imgone{
     margin-top: -6px;
@@ -797,14 +797,9 @@ button:hover {
 }.finance{
     height: 183px;
 }.Progr {
-  max-width: 950px;
-  margin: 40px auto;
-  padding: 30px;
-  background: #ffffff;
-  border-radius: 15px;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
-  font-family: 'Arial', sans-serif;
-  color: #444;
+  max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .Progr h2 {
@@ -817,13 +812,11 @@ button:hover {
 }
 
 .Progr img {
-  width: 100%;
-  max-width: 320px;
-  border-radius: 12px;
-  margin: 15px 0 20px 0;
-  display: block;
-  box-shadow: 0 6px 10px rgba(42, 122, 226, 0.2);
-  transition: transform 0.3s ease;
+  width: 200px;
+    height: auto;
+    margin-right: 20px;
+    float: left;
+    border-radius: 8px;
 }
 
 .Progr img:hover {
@@ -831,9 +824,10 @@ button:hover {
 }
 
 .Progr p {
-  font-size:18px;
-  line-height: 1.55;
-  margin-bottom: 35px;
+  overflow: hidden;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    clear: both;
   
 }
 
@@ -864,6 +858,7 @@ button:hover {
     color:#0c3c80;
     text-align: center;
     text-decoration: underline;
+    margin-top:-80px;
 }.missions-P{
     font-size:18px;
     margin-left:100px;
@@ -876,7 +871,56 @@ button:hover {
 }.stud-testimonials {
   padding: 60px 20px;
   text-align: center;
+}.study-methods {
+    background-color: #f4f8fc;
+    padding: 50px 20px;
+    text-align: center;
 }
+
+.study-heading {
+    color: #0c3c80;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 40px;
+    font-size:30px;
+}
+
+.study-methods-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.study-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    width: 280px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+}
+
+.study-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.study-title {
+    color:black;
+    font-size:18px;
+    margin-top: 10px;
+    
+}
+
+.learningImages {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 0px;
+    margin-top: 15px;
+}
+
 
 
 .video-container-Testimony {
@@ -1746,11 +1790,13 @@ left:0
   /* Further reduce fonts */
   .AccInfo {
     font-size: 14px;
+    margin-left:30px;
   }
-
-  .service h2,
   .service li {
     font-size: 16px;
+    color:black;
+    
+
   }
 
   /* Tabs full width and smaller font */
@@ -1952,8 +1998,8 @@ left:0
   color: #fff;               /* make text white */
   overflow: hidden;
 }.service h2{
-  color: white;
-    font-size:25px;
+  color: black;
+    font-size:20px;
 }.logo {
  height: auto !important;
     max-width: 90vw !important;
@@ -1968,6 +2014,8 @@ left:0
   
 }.video-container{
   margin-left:80px;
+}.missions-P{
+  margin-left:20px;
 }
 }
 
