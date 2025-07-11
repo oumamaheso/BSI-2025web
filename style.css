@@ -2055,6 +2055,19 @@ left:0
   margin-left:80px;
 }.missions-P{
   margin-left:20px;
+}.internships{
+  margin-left:100px;
+  margin-top:80px;
+}.internships h2{
+  margin-left:120px;
+}.intern{
+  margin-left:9px;
+  width:530px;
+}.internships p{
+  margin-top:80px;
+  margin-left:-80px;
+  padding: 100px 150px;
+ 
 }
 }
 
