@@ -7,9 +7,13 @@ body {
     margin: 0;
     padding: 0;
     height:100%;
+    font-family: 'Poppins', sans-serif;
+
+}h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
 }
 body::after {
-    font-family: Arial, Helvetica, sans-serif;
+  
     content: '';
     display: block;
     height: 100px; /* Adjust the space */
@@ -500,7 +504,7 @@ ul {
     margin-top: -185px;
 }.durban{
     padding-left:900px ;
-    margin-top:-185px;
+    margin-top:-170px;
 }.appointments{
     font-size:12px;
     font-weight:bold;
