@@ -46,6 +46,22 @@ html {
   margin-top: -15px;
   margin-left:500px;
   font-size:30px;
+}.internships h2{
+  font-size:30px;
+  color:#0c3c80;
+  text-decoration: underline;
+  margin-left:50px;;
+
+}.intern{
+  width:600px;
+  margin-left:20px;
+}.internships{
+  margin-top:-100px;
+}.internships p{
+  margin-left:650px;
+  margin-top:-250px;
+  font-size:18px;
+
 }
 
 
@@ -69,7 +85,8 @@ header {
      flex: 1;
 }.Coll,
  .Acc,
- .finex-bsi{
+ .finex-bsi,
+ .learnPage{
    top: 20px;
    left: 0px;
    position: absolute;
@@ -86,7 +103,7 @@ height: 150px;
 display: block;
 position:relative;
 top:0;
-left:0;
+left:60px;
 }.hands-container {
     display: flex;
     align-items: center;
@@ -672,7 +689,7 @@ left:0
 }.tabsC{
   position:relative;
   top: -370px;
-  right:-820px;
+  right:-680px;
   display: flex;
   gap: 1px;
   padding: 20px;
@@ -1175,7 +1192,7 @@ left:0
     font-size:18px;
 }.usAbout{
     position: relative;
-    margin-top:100px;
+    margin-top:-80px;
     margin-left:70px
     
 }.finexBack h1{
