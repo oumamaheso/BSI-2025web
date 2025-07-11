@@ -360,7 +360,7 @@ ul {
   display: flex;
   gap: 50px; 
   margin-top: 20px;
-  padding-left: 200px;
+  padding-left: 250px;
    
 }
 
@@ -504,7 +504,7 @@ ul {
     margin-top: -185px;
 }.durban{
     padding-left:900px ;
-    margin-top:-170px;
+    margin-top:-195px;
 }.appointments{
     font-size:12px;
     font-weight:bold;
