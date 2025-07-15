@@ -945,6 +945,13 @@ button:hover {
     font-size:18px;
     margin-top: 10px;
     
+}.collegeAccre h1{
+  text-align: center;
+  text-decoration: underline;
+  color:#0c3c80;
+}.coll-Accre{
+  padding:10px;
+  width:200px;
 }
 
 .learningImages {
