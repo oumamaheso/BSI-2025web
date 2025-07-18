@@ -2031,6 +2031,7 @@ left:0
 .pillars{
     padding:150px 0px;
     margin-left:-200px;
+    margin-top:-500px;
 
 }.learn-tabs{
     position: static;       /* remove absolute offsets */
@@ -2075,6 +2076,10 @@ left:0
     margin-left:-50px;
     margin-top:-10px;
 
+}.usAbout{
+    padding:150px 0px;
+    text-align: center;
+    margin-left:-10px;
 }
 
 .get-inAcc{
@@ -2118,7 +2123,7 @@ left:0
   width:300px;
   
 }.video-container{
-  margin-left:80px;
+  margin-left:-30px;
 }.missions-P{
   margin-left:20px;
 }.internships{
@@ -2134,8 +2139,16 @@ left:0
   margin-left:-80px;
   padding: 100px 150px;
  
+}.collegeAccre{
+  margin-left:60px;
 }
-}
+.consider {
+  width: 350px;
+  text-align: center;
+  padding:20px;
+  margin-top:-90px;
+ 
+}}
 
 
 
