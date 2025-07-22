@@ -1574,7 +1574,7 @@ left:0
 
   /* Pillars */
   .pillars {
-    margin-top: 20px !important;
+    margin-top: -400px !important;
     text-align: center !important;
   }
 
@@ -2018,7 +2018,7 @@ left:0
 
   .tabsC {
     position:absolute;       /* remove absolute offsets */
-    top: 100px;
+    top: 200px;
     right:0;
     justify-content: center;
     gap: 10px;
