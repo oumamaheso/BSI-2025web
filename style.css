@@ -86,20 +86,7 @@ header {
    flex-direction: column;
    flex: 1;
 
- }.Coll{
-  top: 20px;
-   left: 0px;
-   position: absolute;
-   display: flex;
-   flex-direction: column;
-   flex: 1;
- }.finex-bsi{
-  top: 20px;
-   left: 0px;
-   position: absolute;
-   display: flex;
-   flex-direction: column;
-   flex: 1;
+ 
  }.reach {
   display: flex;
   flex-direction: column;
@@ -1549,8 +1536,8 @@ left:0
     max-width: 90vw !important;
     margin: 0 auto !important;
     position: relative !important;
-    top: 0 !important;
-    left:0 !important;
+    top: -100px !important;
+    left:-50px !important;
    
   }
 
@@ -2028,14 +2015,14 @@ left:0
   .tabsC {
     position: static;       /* remove absolute offsets */
     top: 0;
-    right: 0;
+    right:0;
     justify-content: center;
     gap: 10px;
     padding: 90px 0px;
   }.tabs{
      position: static;       /* remove absolute offsets */
     top: 0x;
-    right: 0;
+    right:0;
     justify-content: center;
     gap: 10px;
     padding: 10px 0px;
