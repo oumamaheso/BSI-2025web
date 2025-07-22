@@ -12,13 +12,7 @@ body {
 }h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
 }
-body::after {
-  
-    content: '';
-    display: block;
-    height: 100px; /* Adjust the space */
-    background-color: white;
-}
+
 .color {
   background-color:grey;
   padding: 20px;
@@ -92,7 +86,28 @@ header {
    flex-direction: column;
    flex: 1;
 
- }
+ }.Coll{
+  top: 20px;
+   left: 0px;
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   flex: 1;
+ }.finex-bsi{
+  top: 20px;
+   left: 0px;
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   flex: 1;
+ }.reach {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+ 
+
+}
+
 .logo {
 height: 150px;
 display: block;
@@ -834,8 +849,27 @@ button:hover {
   max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
-}
+}.Acc-subjects,.Eng-subjects ,.Off-subjects,.Buss-subjects{
+  color:#0c3c80;
+  padding: 2px 6px; 
+  font-weight: bold;
+  font-size: 16px;
 
+}.about-course{
+   padding: 0px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  border-radius: 0px;
+  background-color:white;
+}.FinancialAcc-page{
+display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}.FinancialAcc-page h2{
+  color:#0c3c80;
+  text-decoration: underline;
+}
 .Progr h2 {
   color:#0c3c80;
   margin-bottom: 10px;
