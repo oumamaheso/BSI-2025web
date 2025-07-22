@@ -2206,7 +2206,13 @@ left:0
   padding:20px;
   margin-top:-90px;
  
-}}
+}.backgound-finAcc{
+  padding:0px 750px;
+ 
+}.about-course ul{
+  list-style-type: disc;
+  margin-left:20px;
+}
 
 
 
