@@ -685,7 +685,7 @@ left:0
   background-color: transparent;
 }.tabsC{
   position:relative;
-  top: -370px;
+  top: -380px;
   right:-680px;
   display: flex;
   gap: 1px;
@@ -1532,12 +1532,12 @@ left:0
   /* Logos */
   
   .LogoC {
-    height:300px;
-    max-width: 90vw !important;
+    height:400px;
+    max-width: 150vw !important;
     margin: 0 auto !important;
     position: relative !important;
     top: -100px !important;
-    left:-50px !important;
+    left:-130px !important;
    
   }
 
@@ -1851,6 +1851,7 @@ left:0
   .Homepage {
     padding: 6px 12px; /* smaller padding */
     font-size: 14px;   /* smaller font */
+    margin-top:-20px;
    
   }
 
@@ -1948,7 +1949,10 @@ left:0
 
   /* Smaller header images */
   .accAndTraining {
-    height: auto;
+    height: 400px;
+    margin-top:-100px;
+    width:400px;
+    margin-left:-50px;
   }
 }.finexBack {
   position: relative;
@@ -2013,8 +2017,8 @@ left:0
   }
 
   .tabsC {
-    position: static;       /* remove absolute offsets */
-    top: 0;
+    position:absolute;       /* remove absolute offsets */
+    top: 100px;
     right:0;
     justify-content: center;
     gap: 10px;
@@ -2027,15 +2031,15 @@ left:0
     gap: 10px;
     padding: 10px 0px;
   }.Home-tabs{
-    position: static;       /* remove absolute offsets */
-    top: 0;
+    position:static;       /* remove absolute offsets */
+    top:30px;
     right: 0;
     justify-content: center;
     gap: 10px;
     padding: 100px 0px;
   }.tabsF {
-    position: static;       /* remove absolute offsets */
-    top: 0;
+    position:absolute;       /* remove absolute offsets */
+    top:60px;
     right: 0;
     justify-content: center;
     gap: 10px;
@@ -2124,7 +2128,7 @@ left:0
   justify-content: center;
   align-items: center;
   padding:100px 0px;
-  margin-top:-100px;
+  margin-top:-30px;
   text-align: center;
   color: #fff;               /* make text white */
   overflow: hidden;
