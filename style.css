@@ -863,7 +863,7 @@ button:hover {
 
 .about-course2 table {
   width: 100%;
-  min-width: 800px; /* Adjust based on actual content */
+  min-width: 800px; 
   border-collapse: collapse;
   margin-top: 20px;
 }
