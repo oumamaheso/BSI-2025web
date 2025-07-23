@@ -852,6 +852,43 @@ button:hover {
   margin-left: -20px;
 }.about-course p{
   font-size:16px;
+}.fees{
+  margin-left:-650px;
+  background-color: #f4f8fc;
+
+}.about-course2 table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    .about-course2 th, .about-course2 td {
+      border: 1px solid #000;
+      padding: 12px;
+      vertical-align: top;
+    }
+
+    .about-course2 th {
+      background-color: #4da6ff;
+      color: #000;
+      text-align: left;
+    }.table-container {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* smooth scrolling on iOS */
+}.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 800px; /* prevents table from squeezing too narrow */
+}
+.about-course1{
+   padding: 0px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  border-radius: 0px;
+  background-color: #f4f8fc;
+  margin-left:-235px;
+}.about-course1 ul{
+  list-style-type: disc;
+  margin-left: -20px;
 }
 .backgound-finAcc {
   text-align: center;
@@ -2212,7 +2249,17 @@ left:0
 }.about-course ul{
   list-style-type: disc;
   margin-left:20px;
+}.fees{
+  margin-left:-20px;
+
+}.about-course1{
+  margin-left:-5px;
+  padding:50px;
+}.about-course2 {
+  padding:500px;
 }
+}
+
 
 
 
