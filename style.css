@@ -2227,7 +2227,10 @@ left:0
 }.backgound-finAcc{
   padding:50px 10px;
  
-}.about-course ul{
+}.backgound-finAcc h1{
+  margin-left:-20px;
+}
+.about-course ul{
   list-style-type: disc;
   margin-left:20px;
 }.fees{
