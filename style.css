@@ -847,7 +847,11 @@ button:hover {
   border-radius: 0px;
   background-color: #f4f8fc;
 
-}.about-course ul{
+}.about-course h2{
+  color:#0c3c80;
+  text-decoration: underline;
+}
+.about-course ul{
   list-style-type: disc;
   margin-left: -20px;
 }.about-course p{
@@ -856,30 +860,7 @@ button:hover {
   margin-left:-650px;
   background-color: #f4f8fc;
 
-}.table-container {
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
 }
-
-.about-course2 table {
-  width: 100%;
-  min-width: 800px; 
-  border-collapse: collapse;
-  margin-top: 20px;
-}
-
-.about-course2 th, .about-course2 td {
-  border: 1px solid #000;
-  padding: 12px;
-  vertical-align: top;
-}
-
-.about-course2 th {
-  background-color: #4da6ff;
-  color: #000;
-  text-align: left;
-}
-
 .about-course1{
    padding: 0px;
   box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
@@ -917,13 +898,13 @@ button:hover {
   filter: blur(1px);
   z-index:-1;
 }
-.FinancialAcc-page{
+.FinancialAcc-page2{
 display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
   padding: 20px;
-}.FinancialAcc-page h2{
+}.FinancialAcc-page2 h2{
   color:#0c3c80;
   text-decoration: underline;
 }
@@ -2244,7 +2225,7 @@ left:0
   margin-top:-90px;
  
 }.backgound-finAcc{
-  padding:0px 750px;
+  padding:50px 10px;
  
 }.about-course ul{
   list-style-type: disc;
@@ -2258,7 +2239,8 @@ left:0
 }.about-course2 {
   margin-right:-400px;
 
-}}
+}
+}
 
 
 
