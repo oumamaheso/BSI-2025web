@@ -78,6 +78,7 @@ html {
   color:#0c3c80;
   text-decoration: underline;
   margin-left:70px;;
+  text-align: center;
 
 }.intern{
   width:600px;
@@ -1368,6 +1369,7 @@ left:0
     color:#0c3c80;
     text-decoration:underline;
     margin-left:-1px;
+    text-align: center;
 
 
 }.BSI-Content {
@@ -1403,6 +1405,7 @@ left:0
     position: relative;
     margin-top:180px;
     margin-left:70px
+    
     
 }.finexBack h1{
     color:white;
@@ -2279,6 +2282,7 @@ left:0
   margin-top:80px;
 }.internships h2{
   margin-left:120px;
+  
 }.intern{
   margin-left:9px;
   width:530px;
