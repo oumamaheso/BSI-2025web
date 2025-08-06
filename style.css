@@ -251,7 +251,7 @@ margin-top: -160px;
 }.pillars-heading,
 .pillars > p {
     position: relative;
-    transform: translate(100px, 190px); /* Adjust values as needed */
+    transform: translate(100px, 190px); 
 }
 
 
@@ -265,8 +265,8 @@ ul {
     justify-content: flex-start;
     align-items: flex-start;
     gap: 50px;
-    margin-top: 100px;       /* safer than -200px */
-    margin-left:350px;  /* Align to top */
+    margin-top: 100px;    
+    margin-left:350px;  
 }
 
 
@@ -297,7 +297,7 @@ ul {
 
 /* Different image heights */
 .img1 {
-    height: 200px;
+    height: 300px;
   
  
 }
