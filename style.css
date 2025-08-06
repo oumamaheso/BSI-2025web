@@ -431,8 +431,9 @@ ul {
 }.wealth{
   margin-top:-20px;
   font-size:20px;
-  margin-left:500px;
-  color: #0c3c80;
+  margin-left:60px;
+  color: black;
+  font-weight:bold;
 
 }
 
@@ -467,13 +468,11 @@ ul {
   border: 3px solid #0c3c80; /* blue border */
   padding: 10px;
   margin: 40px auto;
-  max-width: 800px;
+  width:1300px;
   text-align: center;
   border-radius: 0px;
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  background-color:white;
+  background-color:#0c3c80;
   gap:30px;
   
 }
@@ -481,7 +480,7 @@ ul {
 .stat-item {
   flex: 1 1 150px;
   margin: 10px;
-  color:#0c3c80;
+  color:white;
   font-weight: bold;
   font-size: 18px;
 }
