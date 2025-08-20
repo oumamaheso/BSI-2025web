@@ -136,7 +136,7 @@ html {
   width:600px;
   margin-left:20px;
 }.internships{
-  margin-top:-50px;
+  margin-top:100px;
 }.internships p{
   margin-left:650px;
   margin-top:-250px;
@@ -311,16 +311,14 @@ ul {
     list-style: none;
     display: flex;
     gap: 25px;
-}
-.image-links {
+}.image-links{
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;  /* center items horizontally */
+    align-items: flex-start;  /* keep items aligned at top */
     gap: 50px;
-    margin-top: 100px;    
-    margin-left:350px;  
+    margin: 100px auto 0;     /* top margin 100px, auto left/right centers the container */
+    width: fit-content; 
 }
-
 
 .image-container {
     display: flex;
@@ -486,9 +484,9 @@ ul {
 }.wealth{
   margin-top:-20px;
   font-size:20px;
-  margin-left:60px;
   color: black;
   font-weight:bold;
+  margin-left:75px;
 
 }
 
@@ -838,11 +836,14 @@ left:0
 
 }
 
-.Homepage,.about-tab:hover {
+.Homepage:hover {
  
   text-decoration:underline;
 
-}.WhyUs{
+} .about-tab:hover{
+  text-decoration:underline;
+}
+.WhyUs{
   
     text-align: center;
     color:#0c3c80;
@@ -1367,13 +1368,14 @@ left:0
     justify-content: flex-start;
   }
 }.cta-section {
-  background-color: #0c3c80; /* Dark blue background to contrast */
+   background-color: #0c3c80;
   padding: 40px 20px;
   text-align: center;
   border-radius: 15px;
   color: #fff;
-  margin: 50px auto;
-  max-width: 800px;
+  margin: 100px auto;
+  max-width: 1000px; 
+  width: 90%;        
   font-family: Arial, sans-serif;
 }
 
@@ -1385,11 +1387,11 @@ left:0
 
 .cta-buttons {
   justify-content: center;
-  flex-wrap: wrap; /* allows buttons to wrap on smaller screens */
+  flex-wrap: wrap; 
 }
 
 .cta-btn {
-  background-color: #2a7ae2; /* bright blue */
+  background-color: #2a7ae2; 
   color: #fff;
   border: none;
   padding: 15px 30px;
@@ -1470,7 +1472,7 @@ left:0
     font-size:18px;
 }.usAbout{
     position: relative;
-    margin-top:180px;
+    margin-top:50px;
     margin-left:70px
     
     
@@ -2407,6 +2409,7 @@ left:0
         flex-direction: column;
         gap: 5px;
         margin: 60px 0 30px 0;
+
     }.about-tab{
   position: absolute;
   text-decoration: none;
@@ -2419,6 +2422,9 @@ left:0
   margin-top:100px;
 }.about-bsi p{
   margin-left:10px;
+}.wealth h2{
+  padding:10px 0px;
+  margin-left:-20px;
 }
 
     
