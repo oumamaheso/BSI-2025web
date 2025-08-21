@@ -315,10 +315,10 @@ ul {
     display: flex;
     justify-content: center;  
     align-items: flex-start;  
-    gap: 10px;
+    gap: 25px;
     margin: 100px auto 0;     
     width: fit-content; 
-    margin-top:30px;
+    margin-top:55px;
 }
 
 .image-container {
@@ -491,6 +491,8 @@ ul {
   text-align: center;
   text-decoration: underline;
   text-decoration-color: #0c3c80;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
   
 
 }
