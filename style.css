@@ -315,9 +315,10 @@ ul {
     display: flex;
     justify-content: center;  
     align-items: flex-start;  
-    gap: 50px;
+    gap: 10px;
     margin: 100px auto 0;     
     width: fit-content; 
+    margin-top:30px;
 }
 
 .image-container {
@@ -483,11 +484,14 @@ ul {
   padding: 10px 15px;
 }.wealth{
   margin-top:-20px;
-  font-size:20px;
-  color: black;
+  font-size:25px;
+  color:#0c3c80;
   font-weight:bold;
-  margin-left:475px;
+  margin-left:365px;
   text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #0c3c80;
+  
 
 }
 
@@ -1436,8 +1440,7 @@ left:0
 }
 .usAbout h2{
     font-size:30px;
-    color:#0c3c80;
-    text-decoration:underline;
+    color:black;
     margin-left:-1px;
     text-align: center;
 
