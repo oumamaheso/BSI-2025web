@@ -67,7 +67,7 @@ html {
   width: 100%;
   margin: 50px 0;
   margin-left:-350px;
-  margin-top:-50px;
+  margin-top:-10px;
 }.watch-youtube {
   text-align: center;
   margin-top: -15px;
@@ -380,7 +380,7 @@ ul {
     text-align: center;
     margin-top: 10px;
     color: #0c3c80;
-    font-size:18px;
+    font-size:20px;
 }
 /* Individual container adjustments */
 .container1 {
@@ -831,9 +831,10 @@ left:0
 }
 .Homepage{
   text-decoration: none;
-  padding: 10px 20px;
-  font-size:18px;
+  padding: 20px 45px;
+  font-size:20px;
   color: #0c3c80;
+  margin-left:-85px;
 
    
 }.about-tab{
@@ -1387,7 +1388,7 @@ left:0
   max-width: 1000px; 
   width: 90%;        
   font-family: Arial, sans-serif;
-  margin-top:-80px;
+  margin-top:50px;
 }
 
 .cta-section h2 {
