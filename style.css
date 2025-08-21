@@ -313,10 +313,10 @@ ul {
     gap: 25px;
 }.image-links{
     display: flex;
-    justify-content: center;  /* center items horizontally */
-    align-items: flex-start;  /* keep items aligned at top */
+    justify-content: center;  
+    align-items: flex-start;  
     gap: 50px;
-    margin: 100px auto 0;     /* top margin 100px, auto left/right centers the container */
+    margin: 100px auto 0;     
     width: fit-content; 
 }
 
@@ -336,7 +336,7 @@ ul {
 
 
 
-/* Base image styling */
+
 .link-image {
     width: 350px;
     display: block;
@@ -345,7 +345,7 @@ ul {
    
 }
 
-/* Different image heights */
+
 .img1 {
     height: 300px;
     
@@ -357,13 +357,13 @@ ul {
 
     height: 300px;
     margin-top:-35px;
-    width:400px;
+    width:600px;
     
 }
 
 .img3 {
     height: 300px;
-     width:400px;
+     width:600px;
 }
 
 .link-image:hover {
