@@ -76,8 +76,8 @@ html {
   margin-left:500px;
   font-size:30px;
 }.about-bsi {
-  background-image: url("images/BSISA.webp"); /* Replace with your background image */
-  background-size: cover;       /* Make image cover entire div */
+  background-image: url("images/BSISA.avif"); /* Replace with your background image */
+  background-size:cover;    /* Make image cover entire div */
   background-position: center;  /* Center the image */
   padding: 40px;                /* Add spacing inside */                /* Change text color for readability */
   border-radius: 0px;          /* Optional: rounded corners */
