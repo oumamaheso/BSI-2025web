@@ -618,11 +618,14 @@ ul {
     margin-top:-30px;
     padding-left:30px;
     color: #000;
+    vertical-align: bottom;
 }.address3{
     font-style: italic;
-    color:#000
+    color:#000;
+    vertical-align: bottom;
 }.address1{
   color:#000;
+  vertical-align:bottom;
 }
 .phone{
     height: 20px;
@@ -635,10 +638,10 @@ ul {
 }.jozi{
     padding-left: 500px;
     position:relative;
-    margin-top: -185px;
+    margin-top: -215px;
 }.durban{
     padding-left:900px ;
-    margin-top:-195px;
+    margin-top:-210px;
 }.appointments{
     font-size:12px;
     font-weight:bold;
@@ -729,7 +732,7 @@ ul {
     justify-content: center;
     gap: 10px;
     margin: 40px 0;
-    margin-top: -50px;
+    margin-top: -150px;
     margin-left:-800px;
     color:#000
  
@@ -907,7 +910,7 @@ left:0
 }.accreditation-title {
    
     text-align: center;
-    margin-top: 40px;
+    margin-top: -50px;
     color:#0c3c80;
     text-decoration: underline;
 }
@@ -922,10 +925,10 @@ left:0
 
 
 .accred-logo {
-    width: 180px;
+    width: 120px;
     margin: 10px;
     vertical-align: middle;
-    margin-left:30px;
+    margin-left:80px;
 
 }
 
@@ -1395,7 +1398,7 @@ left:0
   max-width: 1000px; 
   width: 90%;        
   font-family: Arial, sans-serif;
-  margin-top:50px;
+  margin-top:-50px;
 }.cta-section1 {
    background-color: #0c3c80;
   padding: 40px 20px;
