@@ -12,6 +12,8 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+
+
 .color {
   background-color:white;
   padding: 20px;
@@ -73,7 +75,16 @@ html {
   margin-top: -15px;
   margin-left:500px;
   font-size:30px;
-}.about-bsi h2{
+}.about-bsi {
+  background-image: url("images/BSISA.webp"); /* Replace with your background image */
+  background-size: cover;       /* Make image cover entire div */
+  background-position: center;  /* Center the image */
+  padding: 40px;                /* Add spacing inside */                /* Change text color for readability */
+  border-radius: 0px;          /* Optional: rounded corners */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3); /* Optional shadow */
+  margin-top:100px;
+}
+.about-bsi h2{
   color:#0c3c80;
   text-align: center;
   text-decoration: underline;
@@ -81,7 +92,20 @@ html {
   margin-top:100px;
 }.about-bsi p{
   position: relative;
-  margin-left:70px
+  margin-left:70px;
+  font-size:18px;
+}.promiseBSI h2{
+  color:#0c3c80;
+  text-align: center;
+  text-decoration: underline;
+  font-size:30px;
+  margin-top:100px;
+
+}.promiseBSI p{
+  position: relative;
+  margin-left:70px;
+  font-size:18px;
+
 }
 .stats {
     margin-top: 40px;
