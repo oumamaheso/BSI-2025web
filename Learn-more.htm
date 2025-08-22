@@ -66,7 +66,7 @@ Together with our trusted partners, we craft tailor-made strategies that meet ev
         </div>
         </div>
 
-        
+
         <div class="internships">
             <h2>Internships</h2>
             <img src="images/interns.jpg" class="intern">
@@ -76,6 +76,29 @@ We have realized that to be where we are, it is because of others who were here 
 With this concept in mind, every year, we carefully handpick interns to train our team and we can happily say that most of them have gone into the mainstream of the economy, and most are still part of the BSI Community.</p>
 
         
+</div>
+ <section class="cta-section1">
+  
+    <h2>Discover how BSI South Africa can support your growth</h2>
+    <div class="cta-buttons1">
+        <!---<a href="Learn-more.htm" class="cta-btn">About Us</a>--->
+        <a href="https://wa.me/27672736847" target="_blank" class="cta-btn whatsapp-btn">Chat to us on WhatsApp</a>
+        <button id="openForm" class="cta-btn">Contact Us</button>
+    </div>
+</section>
+                   <div id="consultationForm" class="modal">
+  <div class="modal-content">
+    <span id="closeForm" class="close">&times;</span>
+    <h3>Book Consultation</h3>
+   <form action="https://getform.io/f/bjjowjnb" method="post">
+  <input type="text" name="fullname" placeholder="Full Name" required><br>
+  <input type="email" name="email" placeholder="Email" required><br>
+  <textarea name="message" placeholder="What would you like to consult about?"rows="5"  required></textarea><br>
+  <button type="submit">Submit</button>
+</form>
+
+
+  </div>
 </div>
         
         <div class="color">
@@ -139,17 +162,31 @@ With this concept in mind, every year, we carefully handpick interns to train ou
  
 </div>
 </div>
-
-        
-        
+ 
        
     </div>
 </div>
    
-        
-        
-        
-
         </header>
+        <script>
+  const modal = document.getElementById('consultationForm');
+  const openBtn = document.getElementById('openForm');
+  const closeBtn = document.getElementById('closeForm');
+
+  openBtn.onclick = () => {
+    modal.style.display = 'block';
+  };
+
+  closeBtn.onclick = () => {
+    modal.style.display = 'none';
+  };
+
+  window.onclick = (e) => {
+    if (e.target === modal) {
+      modal.style.display = 'none';
+    }
+  };
+</script>
+ 
     </body>
 </html>

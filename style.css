@@ -67,7 +67,7 @@ html {
   width: 100%;
   margin: 50px 0;
   margin-left:-350px;
-  margin-top:-10px;
+  margin-top:100px;
 }.watch-youtube {
   text-align: center;
   margin-top: -15px;
@@ -729,7 +729,7 @@ ul {
     justify-content: center;
     gap: 10px;
     margin: 40px 0;
-    margin-top: 100px;
+    margin-top: -50px;
     margin-left:-800px;
     color:#000
  
@@ -832,8 +832,9 @@ left:0
 .Homepage{
   text-decoration: none;
   padding: 20px 10px;
-  font-size:18px;
+  font-size:20px;
   color: #0c3c80;
+  font-weight:bold;
 
    
 }.about-tab{
@@ -843,6 +844,7 @@ left:0
   color: #0c3c80;
   margin-left:600px;
   margin-top:-120px;
+  font-weight: bold;
 
 }
 
@@ -1384,6 +1386,17 @@ left:0
     justify-content: flex-start;
   }
 }.cta-section {
+   background-color: #0c3c80;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 15px;
+  color: #fff;
+  margin: 100px auto;
+  max-width: 1000px; 
+  width: 90%;        
+  font-family: Arial, sans-serif;
+  margin-top:50px;
+}.cta-section1 {
    background-color: #0c3c80;
   padding: 40px 20px;
   text-align: center;
@@ -2311,19 +2324,23 @@ left:0
     
     
   }.tabs{
-     position: static;       /* remove absolute offsets */
-    top: 0x;
-    right:0;
-    justify-content: center;
-    gap: 10px;
-    padding: 10px 0px;
+     display: flex;           /* Arrange children in a row */
+    gap: 10px;               /* Space between tabs (adjust as needed) */
+    padding: 10 12px;
+    position: relative;      /* Use relative instead of absolute for normal flow */
+    top: 20px;                  /* Reset top if needed */
+    right: 40px;                /* Reset right if needed */
+    flex-wrap: wrap;
+      
+    
   }.Home-tabs{
-      position: static;       /* remove absolute offsets */
-    top: 0x;
-    right:0;
-    justify-content: center;
-    gap: 10px;
-    padding: 10px 20px;
+   display: flex;           /* Arrange children in a row */
+    gap: 10px;               /* Space between tabs (adjust as needed) */
+    padding: 10 12px;
+    position: relative;      /* Use relative instead of absolute for normal flow */
+    top: 20px;                  /* Reset top if needed */
+    right: 40px;                /* Reset right if needed */
+    flex-wrap: wrap;
   }.tabsF {
     position:absolute;       /* remove absolute offsets */
     top:60px;
