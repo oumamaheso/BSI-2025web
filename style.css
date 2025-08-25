@@ -122,13 +122,14 @@ html {
     border-bottom: 3px solid #0c3c80; /* choose your color */
     padding-bottom: 0px;
     text-align: center;
-    margin-left:500px;
+    margin-left:550px;
 }
 
 .stat-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
+    margin-top:50px;
 }
 
 .card {
