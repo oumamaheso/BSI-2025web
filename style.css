@@ -2380,7 +2380,7 @@ left:0
     gap: 5px;
     position: relative;
     top: -110px;
-    right: -80px;
+    right: -50px;
     flex-wrap: nowrap;       /* don't wrap the tabs */
 }
 
@@ -2494,7 +2494,7 @@ left:0
     margin: 0 auto !important;
     position: relative !important;
     top: -30px !important;
-    left: -150px !important;
+    left: -100px !important;
 }.Logo3{
    height: auto !important;
     max-width: 30vw !important;
@@ -2582,7 +2582,15 @@ font-size: 16px;
 
 }.wealth{
   margin-left:-30px;
-}
+}.about-bsi {
+      padding: 20px;           /* reduce padding for small screens */
+      margin-top: 50px;        /* adjust spacing */
+      background-size: cover; /* ensures image scales without cropping too much */
+      background-position: top; /* focus on top of image */
+      text-align: center;       /* optional: center text for better layout */
+      font-size: 14px; 
+      background-repeat: no-repeat;         /* smaller text on mobile */
+  }
 
     
 }/* Very small phones */
@@ -2595,14 +2603,6 @@ font-size: 16px;
   body {
     font-size: 17px;
     padding: 15px;
-  }.about-bsi {
-      padding: 20px;           /* reduce padding for small screens */
-      margin-top: 50px;        /* adjust spacing */
-      background-size: cover; /* ensures image scales without cropping too much */
-      background-position: top; /* focus on top of image */
-      text-align: center;       /* optional: center text for better layout */
-      font-size: 14px; 
-      background-repeat: no-repeat;         /* smaller text on mobile */
   }
 }
 
