@@ -1511,7 +1511,7 @@ left:0
 }.whyBSI {
   text-align: center;
   padding: 40px 20px;
-  margin-top:50px;
+  margin-top:-10px;
 }
 
 .whyBSI h2{
@@ -1540,6 +1540,7 @@ left:0
   padding: 20px;
   text-align: center;
   border-radius: 10px;
+  margin-top:-70px;
 }
 
 .whyBSI .feature img.iconn1 {
@@ -2342,7 +2343,7 @@ left:0
   left: -50px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 428px) {
   .finexBack {
     margin-top: 0;
     padding: 20px 10px;
