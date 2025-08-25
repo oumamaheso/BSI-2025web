@@ -2362,7 +2362,7 @@ left:0
   font-size:14px;
   color: #0c3c80;
   margin-left:200px;
-  margin-top:-70px;
+  margin-top:-50px;
 
 
   }.tabs{
@@ -2380,7 +2380,7 @@ left:0
     gap: 5px;
     position: relative;
     top: -110px;
-    right: -50px;
+    right: -60px;
     flex-wrap: nowrap;       /* don't wrap the tabs */
 }
 
@@ -2391,7 +2391,7 @@ left:0
     display: inline-block;
     white-space: normal;     /* allows text inside to wrap */
     max-width: 120px;        /* adjust width to force wrapping */
-    word-break: break-word;  /* breaks long words if needed */
+     /* breaks long words if needed */
 }
 .tabsF {
     position:absolute;       /* remove absolute offsets */
@@ -2494,14 +2494,14 @@ left:0
     margin: 0 auto !important;
     position: relative !important;
     top: -30px !important;
-    left: -100px !important;
+    left: -110px !important;
 }.Logo3{
    height: auto !important;
     max-width: 30vw !important;
     margin: 0 auto !important;
     position: relative !important;
     top: -10px !important;
-    left: -120px !important;
+    left: -100px !important;
   
 }.video-container{
   margin-left:-30px;
