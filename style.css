@@ -2179,15 +2179,7 @@ left:0
  
 
   /* Adjust tabs style */
-  .Homepage {
-  
-    padding: 6px 55px;
-    font-size: 14px;
-    text-decoration: none;
-    display: inline-block;   /* makes each link behave like a “tab” */
-    white-space: nowrap; 
-    
-}
+ 
 
   /* Adjust FAQ boarder */
   .faq-boarder {
@@ -2364,7 +2356,15 @@ left:0
     flex-wrap: wrap;  
    
     
-    
+  } .about-tab{
+  position: absolute;
+  text-decoration: none;
+  font-size:14px;
+  color: #0c3c80;
+  margin-left:200px;
+  margin-top:-70px;
+
+
   }.tabs{
      display: flex;           /* Arrange children in a row */
     gap: 10px;               /* Space between tabs (adjust as needed) */
@@ -2374,16 +2374,26 @@ left:0
     right: 40px;                /* Reset right if needed */
     flex-wrap: wrap;
       
-    
-  }.Home-tabs{
-   display: flex;           /* Arrange children in a row */
-    gap: 10px;               /* Space between tabs (adjust as needed) */
-    padding: 10 12px;
-    position: relative;      /* Use relative instead of absolute for normal flow */
-    top: 20px;                  /* Reset top if needed */
-    right: 40px;                /* Reset right if needed */
-    flex-wrap: wrap;
-  }.tabsF {
+  }
+    .Home-tabs {
+    display: flex;           /* keep tabs in a row */
+    gap: 5px;
+    position: relative;
+    top: -110px;
+    right: -80px;
+    flex-wrap: nowrap;       /* don't wrap the tabs */
+}
+
+.Homepage {
+    padding: 6px 5px;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    white-space: normal;     /* allows text inside to wrap */
+    max-width: 120px;        /* adjust width to force wrapping */
+    word-break: break-word;  /* breaks long words if needed */
+}
+.tabsF {
     position:absolute;       /* remove absolute offsets */
     top:60px;
     right: 0;
@@ -2411,9 +2421,6 @@ left:0
     justify-content: center;
     padding: 110px 0px;
 
-}.Logo3{
-    margin-left:150px;
-    width:200px;
 }.learn {
     padding: 20px;
     height: auto;
@@ -2483,15 +2490,18 @@ left:0
     font-size:20px;
 }.logo {
  height: auto !important;
-    max-width: 90vw !important;
+    max-width: 30vw !important;
     margin: 0 auto !important;
     position: relative !important;
-    top: 0 !important;
-    left: -30px !important;
+    top: -30px !important;
+    left: -150px !important;
 }.Logo3{
-  position: relative;
-  margin-left:-20px;
-  width:300px;
+   height: auto !important;
+    max-width: 30vw !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    top: -10px !important;
+    left: -120px !important;
   
 }.video-container{
   margin-left:-30px;
@@ -2541,16 +2551,20 @@ left:0
 }.about-course2 {
   margin-right:-400px;
 
-}.paragraphsHome{
-  margin-top:-150px;
-  margin-left:-30px;
-  padding:100px 10px;
-  text-align: center;
+}.paragraphsHome p{
+font-size: 16px;
+    margin-top: -25px;
+    font-size: 20px;
+    margin-left: -30px;
+    padding:20px 20px;
 
 }.stats-box {
     flex-direction: column;
     gap: -500px;
-}.stat-item {
+}.stats h2{
+  margin-left:50px;
+}
+.stat-item {
     font-size: 16px;
   }.accred-desc{
     margin-left:-30px;
@@ -2561,15 +2575,7 @@ left:0
         gap: 5px;
         margin: 60px 0 30px 0;
 
-    }.about-tab{
-  position: absolute;
-  text-decoration: none;
-  font-size:18px;
-  color: #0c3c80;
-  margin-left:10px;
-  margin-top:50px;
-
-}.about-bsi{
+    }.about-bsi{
   margin-top:100px;
 }.about-bsi p{
   margin-left:10px;
@@ -2579,6 +2585,25 @@ left:0
 }
 
     
+}/* Very small phones */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+    padding: 5px;
+  }
+}@media (max-width: 1024px) {
+  body {
+    font-size: 17px;
+    padding: 15px;
+  }.about-bsi {
+      padding: 20px;           /* reduce padding for small screens */
+      margin-top: 50px;        /* adjust spacing */
+      background-size: cover; /* ensures image scales without cropping too much */
+      background-position: top; /* focus on top of image */
+      text-align: center;       /* optional: center text for better layout */
+      font-size: 14px; 
+      background-repeat: no-repeat;         /* smaller text on mobile */
+  }
 }
 
   
