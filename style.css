@@ -2379,7 +2379,7 @@ left:0
     display: flex;           /* keep tabs in a row */
     gap: 5px;
     position: relative;
-    top: -110px;
+    top: -90px;
     right: -60px;
     flex-wrap: nowrap;       /* don't wrap the tabs */
 }
