@@ -1411,7 +1411,7 @@ left:0
 }
 
 /* Responsive layout */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .finex-BSISA {
     flex-direction: column;
   }
@@ -2343,7 +2343,11 @@ left:0
   left: -50px;
 }
 
-@media (max-width: 428px) {
+@media (max-width: 767px) {
+  body {
+    font-size: 15px;
+    padding: 8px;
+  }
   .finexBack {
     margin-top: 0;
     padding: 20px 10px;
