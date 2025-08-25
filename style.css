@@ -1929,31 +1929,7 @@ left:0
   }
 
   /* Image links container */
-  .image-links {
-    flex-wrap: wrap !important;
-    margin-left: 0 !important;
-    margin-top: 20px !important;
-    justify-content: center !important;
-    gap: 15px !important;
-  }
-
-  /* Individual image container */
-  .image-container {
-    flex: 1 1 100% !important;
-    max-width: 300px !important;
-    margin: 0 auto !important;
-    padding: 10px !important;
-  }
-
-  /* Clickable images */
-  .link-image {
-    width: 100% !important;
-    height: auto !important;
-    max-width: 300px !important;
-    margin: 0 auto !important;
-    display: block !important;
-  }
-
+  
   /* Color bars */
   .color-top,
   .color-bottom {
@@ -2042,12 +2018,7 @@ left:0
   }
 
   /* Address, phone etc */
-  .addresses,.address2, .address3, .phone1, .phoneapp, .jozi, .durban {
-    padding-left: 0 !important;
-    margin: 10px auto !important;
-    font-style: italic !important;
-    text-align: center !important;
-  }
+
 
   /* Container flex fixes */
   .container1 {
@@ -2339,7 +2310,36 @@ left:0
   body {
     font-size: 15px;
     padding: 8px;
+  }  .addresses,.address2, .address3, .phone1, .phoneapp, .jozi, .durban {
+    padding-left: 0 !important;
+    margin: 10px auto !important;
+    font-style: italic !important;
+    text-align: center !important;
+  }.image-links {
+    flex-wrap: wrap !important;
+    margin-left: 0 !important;
+    margin-top: 20px !important;
+    justify-content: center !important;
+    gap: 15px !important;
   }
+
+  /* Individual image container */
+  .image-container {
+    flex: 1 1 100% !important;
+    max-width: 300px !important;
+    margin: 0 auto !important;
+    padding: 10px !important;
+  }
+
+  /* Clickable images */
+  .link-image {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 300px !important;
+    margin: 0 auto !important;
+    display: block !important;
+  }
+
   .finexBack {
     margin-top: 0;
     padding: 20px 10px;
@@ -2599,12 +2599,576 @@ font-size: 16px;
   body {
     font-size: 14px;
     padding: 5px;
+  }.addresses,.address2, .address3, .phone1, .phoneapp, .jozi, .durban {
+    padding-left: 0 !important;
+    margin: 10px auto !important;
+    font-style: italic !important;
+    text-align: center !important;
+  }.image-links {
+    flex-wrap: wrap !important;
+    margin-left: 0 !important;
+    margin-top: 20px !important;
+    justify-content: center !important;
+    gap: 15px !important;
   }
+
+  /* Individual image container */
+  .image-container {
+    flex: 1 1 100% !important;
+    max-width: 300px !important;
+    margin: 0 auto !important;
+    padding: 10px !important;
+  }
+
+  /* Clickable images */
+  .link-image {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 300px !important;
+    margin: 0 auto !important;
+    display: block !important;
+  }
+
+  .finexBack {
+    margin-top: 0;
+    padding: 20px 10px;
+    min-height: 220px;
+  }
+
+  .tabsC {
+    display: flex;           /* Arrange children in a row */
+    gap: 10px;               /* Space between tabs (adjust as needed) */
+    padding: 10 12px;
+    position: relative;      /* Use relative instead of absolute for normal flow */
+    top: -200px;                  /* Reset top if needed */
+    right: 60px;                /* Reset right if needed */
+    flex-wrap: wrap;  
+   
+    
+  } .about-tab{
+  position: absolute;
+  text-decoration: none;
+  font-size:14px;
+  color: #0c3c80;
+  margin-left:200px;
+  margin-top:-50px;
+
+
+  }.tabs{
+     display: flex;           /* Arrange children in a row */
+    gap: 10px;               /* Space between tabs (adjust as needed) */
+    padding: 10 12px;
+    position: relative;      /* Use relative instead of absolute for normal flow */
+    top: 20px;                  /* Reset top if needed */
+    right: 40px;                /* Reset right if needed */
+    flex-wrap: wrap;
+      
+  }
+    .Home-tabs {
+    display: flex;           /* keep tabs in a row */
+    gap: 5px;
+    position: relative;
+    top: -90px;
+    right: -60px;
+    flex-wrap: nowrap;       /* don't wrap the tabs */
+}
+
+.Homepage {
+    padding: 6px 5px;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    white-space: normal;     /* allows text inside to wrap */
+    max-width: 120px;        /* adjust width to force wrapping */
+     /* breaks long words if needed */
+}
+.tabsF {
+    position:absolute;       /* remove absolute offsets */
+    top:60px;
+    right: 0;
+    justify-content: center;
+    gap: 10px;
+    padding: 110px 0px;
+  
+}.contact-tabs {
+    position: static;       /* remove absolute offsets */
+    top: 0;
+    right: 0;
+    justify-content: center;
+    gap: 10px;
+    padding: 110px 0px;
+}
+.pillars{
+    padding:150px 0px;
+    margin-left:-200px;
+    margin-top:-500px;
+
+}.learn-tabs{
+    position: static;       /* remove absolute offsets */
+    top: 0;
+    right: 0;
+    justify-content: center;
+    padding: 110px 0px;
+
+}.learn {
+    padding: 20px;
+    height: auto;
+    background-size: cover;
+  }
+
+  .overview {
+    padding: 15px;
+    max-width: 100%;
+    font-size: 16px;
+  }
+.imgone,
+.imgtwo,
+.imgthree,
+.imgfour,
+.imgfive
+{
+    width: 200px;
+    height: 190px;
+}.aboutBSI{
+  display: flex;
+  gap: 20px;
+  padding:20px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; 
+ 
+
+  
+}.aboutBSI p{
+    margin-left:-50px;
+    margin-top:-10px;
+
+}.usAbout{
+    padding:150px 0px;
+    text-align: center;
+    margin-left:-10px;
+}
+
+.get-inAcc{
+     display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 40px 0;
+    margin-top: 300px;
+   
+
+}.contact-logo{
+    width: 300px;
+}.finexBacks {
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  /* Static fallback if pseudo-elements fail */
+  background: url('images/finBack.avif') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:100px 0px;
+  margin-top:-30px;
+  text-align: center;
+  color: #fff;               /* make text white */
+  overflow: hidden;
+}.service h2{
+  color: black;
+    font-size:20px;
+}.logo {
+ height: auto !important;
+    max-width: 30vw !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    top: -30px !important;
+    left: -110px !important;
+}.Logo3{
+   height: auto !important;
+    max-width: 30vw !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    top: -10px !important;
+    left: -100px !important;
+  
+}.video-container{
+  margin-left:-30px;
+}.missions-P{
+  margin-left:20px;
+}.internships{
+  margin-left:100px;
+  margin-top:80px;
+}.internships h2{
+  margin-left:-30px;
+  margin-top:-50px;
+  
+}.intern{
+  margin-left:-100px;
+  width:530px;
+}.internships p{
+  margin-top:-100px;
+  margin-left:-100px;
+  padding: 100px 15px;
+  text-align: center;
+ 
+}.collegeAccre{
+  margin-left:60px;
+}
+.consider {
+  width: 350px;
+  text-align: center;
+  padding:20px;
+  margin-top:-90px;
+ 
+}.backgound-finAcc{
+  padding:50px 60px;
+  margin-left:-50px;
+ 
+}.backgound-finAcc h1{
+  padding:20px;
+  margin-left:-20px;
+}
+.about-course ul{
+  list-style-type: disc;
+  margin-left:20px;
+}.fees{
+  margin-left:-20px;
+
+}.about-course1{
+  margin-left:-5px;
+  padding:50px;
+}.about-course2 {
+  margin-right:-400px;
+
+}.paragraphsHome p{
+font-size: 16px;
+    margin-top: -25px;
+    font-size: 20px;
+    margin-left: -30px;
+    padding:20px 20px;
+
+}.stats-box {
+    flex-direction: column;
+    gap: -500px;
+}.stats h2{
+  margin-left:50px;
+}
+.stat-item {
+    font-size: 16px;
+  }.accred-desc{
+    margin-left:-30px;
+  }.get-in h2{
+    margin-left:30px;
+  } .get-in {
+        flex-direction: column;
+        gap: 5px;
+        margin: 60px 0 30px 0;
+
+    }.about-bsi{
+  margin-top:100px;
+}.about-bsi p{
+  margin-left:10px;
+
+}.wealth{
+  margin-left:-30px;
+}.about-bsi {
+      padding: 20px;           /* reduce padding for small screens */
+      margin-top: 50px;        /* adjust spacing */
+      background-size: cover; /* ensures image scales without cropping too much */
+      background-position: top; /* focus on top of image */
+      text-align: center;       /* optional: center text for better layout */
+      font-size: 14px; 
+      background-repeat: no-repeat;         /* smaller text on mobile */
+  }
+
 }@media (max-width: 1024px) {
   body {
     font-size: 17px;
     padding: 15px;
+  }.addresses,.address2, .address3, .phone1, .phoneapp, .jozi, .durban {
+    padding-left: 0 !important;
+    margin: 10px auto !important;
+    font-style: italic !important;
+    text-align: center !important;
+  }.image-links {
+    flex-wrap: wrap !important;
+    margin-left: 0 !important;
+    margin-top: 20px !important;
+    justify-content: center !important;
+    gap: 15px !important;
   }
+
+  /* Individual image container */
+  .image-container {
+    flex: 1 1 100% !important;
+    max-width: 300px !important;
+    margin: 0 auto !important;
+    padding: 10px !important;
+  }
+
+  /* Clickable images */
+  .link-image {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 300px !important;
+    margin: 0 auto !important;
+    display: block !important;
+  }
+
+  .finexBack {
+    margin-top: 0;
+    padding: 20px 10px;
+    min-height: 220px;
+  }
+
+  .tabsC {
+    display: flex;           /* Arrange children in a row */
+    gap: 10px;               /* Space between tabs (adjust as needed) */
+    padding: 10 12px;
+    position: relative;      /* Use relative instead of absolute for normal flow */
+    top: -200px;                  /* Reset top if needed */
+    right: 60px;                /* Reset right if needed */
+    flex-wrap: wrap;  
+   
+    
+  } .about-tab{
+  position: absolute;
+  text-decoration: none;
+  font-size:14px;
+  color: #0c3c80;
+  margin-left:200px;
+  margin-top:-50px;
+
+
+  }.tabs{
+     display: flex;           /* Arrange children in a row */
+    gap: 10px;               /* Space between tabs (adjust as needed) */
+    padding: 10 12px;
+    position: relative;      /* Use relative instead of absolute for normal flow */
+    top: 20px;                  /* Reset top if needed */
+    right: 40px;                /* Reset right if needed */
+    flex-wrap: wrap;
+      
+  }
+    .Home-tabs {
+    display: flex;           /* keep tabs in a row */
+    gap: 5px;
+    position: relative;
+    top: -90px;
+    right: -60px;
+    flex-wrap: nowrap;       /* don't wrap the tabs */
+}
+
+.Homepage {
+    padding: 6px 5px;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    white-space: normal;     /* allows text inside to wrap */
+    max-width: 120px;        /* adjust width to force wrapping */
+     /* breaks long words if needed */
+}
+.tabsF {
+    position:absolute;       /* remove absolute offsets */
+    top:60px;
+    right: 0;
+    justify-content: center;
+    gap: 10px;
+    padding: 110px 0px;
+  
+}.contact-tabs {
+    position: static;       /* remove absolute offsets */
+    top: 0;
+    right: 0;
+    justify-content: center;
+    gap: 10px;
+    padding: 110px 0px;
+}
+.pillars{
+    padding:150px 0px;
+    margin-left:-200px;
+    margin-top:-500px;
+
+}.learn-tabs{
+    position: static;       /* remove absolute offsets */
+    top: 0;
+    right: 0;
+    justify-content: center;
+    padding: 110px 0px;
+
+}.learn {
+    padding: 20px;
+    height: auto;
+    background-size: cover;
+  }
+
+  .overview {
+    padding: 15px;
+    max-width: 100%;
+    font-size: 16px;
+  }
+.imgone,
+.imgtwo,
+.imgthree,
+.imgfour,
+.imgfive
+{
+    width: 200px;
+    height: 190px;
+}.aboutBSI{
+  display: flex;
+  gap: 20px;
+  padding:20px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; 
+ 
+
+  
+}.aboutBSI p{
+    margin-left:-50px;
+    margin-top:-10px;
+
+}.usAbout{
+    padding:150px 0px;
+    text-align: center;
+    margin-left:-10px;
+}
+
+.get-inAcc{
+     display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 40px 0;
+    margin-top: 300px;
+   
+
+}.contact-logo{
+    width: 300px;
+}.finexBacks {
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  /* Static fallback if pseudo-elements fail */
+  background: url('images/finBack.avif') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:100px 0px;
+  margin-top:-30px;
+  text-align: center;
+  color: #fff;               /* make text white */
+  overflow: hidden;
+}.service h2{
+  color: black;
+    font-size:20px;
+}.logo {
+ height: auto !important;
+    max-width: 30vw !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    top: -30px !important;
+    left: -110px !important;
+}.Logo3{
+   height: auto !important;
+    max-width: 30vw !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    top: -10px !important;
+    left: -100px !important;
+  
+}.video-container{
+  margin-left:-30px;
+}.missions-P{
+  margin-left:20px;
+}.internships{
+  margin-left:100px;
+  margin-top:80px;
+}.internships h2{
+  margin-left:-30px;
+  margin-top:-50px;
+  
+}.intern{
+  margin-left:-100px;
+  width:530px;
+}.internships p{
+  margin-top:-100px;
+  margin-left:-100px;
+  padding: 100px 15px;
+  text-align: center;
+ 
+}.collegeAccre{
+  margin-left:60px;
+}
+.consider {
+  width: 350px;
+  text-align: center;
+  padding:20px;
+  margin-top:-90px;
+ 
+}.backgound-finAcc{
+  padding:50px 60px;
+  margin-left:-50px;
+ 
+}.backgound-finAcc h1{
+  padding:20px;
+  margin-left:-20px;
+}
+.about-course ul{
+  list-style-type: disc;
+  margin-left:20px;
+}.fees{
+  margin-left:-20px;
+
+}.about-course1{
+  margin-left:-5px;
+  padding:50px;
+}.about-course2 {
+  margin-right:-400px;
+
+}.paragraphsHome p{
+font-size: 16px;
+    margin-top: -25px;
+    font-size: 20px;
+    margin-left: -30px;
+    padding:20px 20px;
+
+}.stats-box {
+    flex-direction: column;
+    gap: -500px;
+}.stats h2{
+  margin-left:50px;
+}
+.stat-item {
+    font-size: 16px;
+  }.accred-desc{
+    margin-left:-30px;
+  }.get-in h2{
+    margin-left:30px;
+  } .get-in {
+        flex-direction: column;
+        gap: 5px;
+        margin: 60px 0 30px 0;
+
+    }.about-bsi{
+  margin-top:100px;
+}.about-bsi p{
+  margin-left:10px;
+
+}.wealth{
+  margin-left:-30px;
+}.about-bsi {
+      padding: 20px;           /* reduce padding for small screens */
+      margin-top: 50px;        /* adjust spacing */
+      background-size: cover; /* ensures image scales without cropping too much */
+      background-position: top; /* focus on top of image */
+      text-align: center;       /* optional: center text for better layout */
+      font-size: 14px; 
+      background-repeat: no-repeat;         /* smaller text on mobile */
+  }
+
 }
 
   
