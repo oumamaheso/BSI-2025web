@@ -1864,15 +1864,7 @@ left:0
 
   /* Logos */
   
-  .LogoC {
-    height:400px;
-    max-width: 150vw !important;
-    margin: 0 auto !important;
-    position: relative !important;
-    top: -100px !important;
-    left:-130px !important;
-   
-  }
+ 
 
   /* Logo header */
   .logo-header {
@@ -2501,7 +2493,16 @@ left:0
     top: -10px !important;
     left: -100px !important;
   
-}.video-container{
+}.LogoC {
+    height: auto !important;
+    max-width: 50vw !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    top: -70px !important;
+    left:-115px !important;
+   
+  }
+.video-container{
   margin-left:-30px;
 }.missions-P{
   margin-left:20px;
@@ -2646,19 +2647,23 @@ font-size: 16px;
     margin-top: 0;
     padding: 20px 10px;
     min-height: 220px;
-  }
-
-  .tabsC {
-    display: flex;           /* Arrange children in a row */
-    gap: 10px;               /* Space between tabs (adjust as needed) */
-    padding: 10 12px;
-    position: relative;      /* Use relative instead of absolute for normal flow */
-    top: -200px;                  /* Reset top if needed */
-    right: 60px;                /* Reset right if needed */
-    flex-wrap: wrap;  
+  }.tabsC {
+    display: flex;          
+    gap: 25px;
+    position: relative;
+    top: -210px;
+    right: -85px;
+    flex-wrap: wrap;
+   
    
     
-  } .about-tab{
+  }.tabsC a{
+    width:50px;
+  }.tabsC a{
+    width:50px;
+  }
+
+  .about-tab{
   position: absolute;
   text-decoration: none;
   font-size:14px;
@@ -2809,7 +2814,16 @@ font-size: 16px;
     top: -10px !important;
     left: -100px !important;
   
-}.video-container{
+}.LogoC {
+    height: auto !important;
+    max-width: 50vw !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    top: -70px !important;
+    left:-115px !important;
+   
+  }
+.video-container{
   margin-left:-30px;
 }.missions-P{
   margin-left:20px;
@@ -2956,16 +2970,19 @@ font-size: 16px;
   }
 
   .tabsC {
-    display: flex;           /* Arrange children in a row */
-    gap: 10px;               /* Space between tabs (adjust as needed) */
-    padding: 10 12px;
-    position: relative;      /* Use relative instead of absolute for normal flow */
-    top: -200px;                  /* Reset top if needed */
-    right: 60px;                /* Reset right if needed */
-    flex-wrap: wrap;  
+    display: flex;          
+    gap: 25px;
+    position: relative;
+    top: -210px;
+    right: -85px;
+    flex-wrap: wrap;
+   
    
     
-  } .about-tab{
+  }.tabsC a{
+    width:50px;
+  }
+   .about-tab{
   position: absolute;
   text-decoration: none;
   font-size:14px;
@@ -3116,7 +3133,16 @@ font-size: 16px;
     top: -10px !important;
     left: -100px !important;
   
-}.video-container{
+} .LogoC {
+    height: auto !important;
+    max-width: 50vw !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    top: -70px !important;
+    left:-115px !important;
+   
+  }
+.video-container{
   margin-left:-30px;
 }.missions-P{
   margin-left:20px;
