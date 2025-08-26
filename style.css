@@ -2392,12 +2392,13 @@ left:0
     padding: 110px 0px;
   
 }.contact-tabs {
-    position: static;       /* remove absolute offsets */
-    top: 0;
-    right: 0;
-    justify-content: center;
-    gap: 10px;
-    padding: 110px 0px;
+    position: relative;       /* remove absolute offsets */
+    top: -160px;
+    right: -30px;
+    gap: 75px;
+  
+}.contact-tabs a{
+  width: 0px;
 }
 .pillars{
     padding:150px 0px;
@@ -2501,7 +2502,14 @@ left:0
     top: -70px !important;
     left:-115px !important;
    
-  }
+  }.contact-logo{
+    height: auto !important;
+    max-width: 30vw !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    top: -10px !important;
+    left: -110px !important;
+}
 .video-container{
   margin-left:-30px;
 }.missions-P{
@@ -2713,12 +2721,13 @@ font-size: 16px;
     padding: 110px 0px;
   
 }.contact-tabs {
-    position: static;       /* remove absolute offsets */
-    top: 0;
-    right: 0;
-    justify-content: center;
-    gap: 10px;
-    padding: 110px 0px;
+    position: relative;       /* remove absolute offsets */
+    top: -160px;
+    right: -30px;
+    gap: 75px;
+  
+}.contact-tabs a{
+  width: 0px;
 }
 .pillars{
     padding:150px 0px;
@@ -2822,7 +2831,14 @@ font-size: 16px;
     top: -70px !important;
     left:-115px !important;
    
-  }
+  }.contact-logo{
+    height: auto !important;
+    max-width: 30vw !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    top: -10px !important;
+    left: -110px !important;
+}
 .video-container{
   margin-left:-30px;
 }.missions-P{
@@ -2981,7 +2997,15 @@ font-size: 16px;
     
   }.tabsC a{
     width:50px;
-  }
+  }.contact-tabs {
+    position: relative;       /* remove absolute offsets */
+    top: -160px;
+    right: -30px;
+    gap: 75px;
+  
+}.contact-tabs a{
+  width: 0px;
+}
    .about-tab{
   position: absolute;
   text-decoration: none;
@@ -3031,13 +3055,6 @@ font-size: 16px;
     gap: 10px;
     padding: 110px 0px;
   
-}.contact-tabs {
-    position: static;       /* remove absolute offsets */
-    top: 0;
-    right: 0;
-    justify-content: center;
-    gap: 10px;
-    padding: 110px 0px;
 }
 .pillars{
     padding:150px 0px;
@@ -3098,8 +3115,6 @@ font-size: 16px;
     margin-top: 300px;
    
 
-}.contact-logo{
-    width: 300px;
 }.finexBacks {
   position: relative;
   width: 100%;
@@ -3141,7 +3156,14 @@ font-size: 16px;
     top: -70px !important;
     left:-115px !important;
    
-  }
+  }.contact-logo{
+    height: auto !important;
+    max-width: 30vw !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    top: -10px !important;
+    left: -110px !important;
+}
 .video-container{
   margin-left:-30px;
 }.missions-P{
@@ -3168,10 +3190,12 @@ font-size: 16px;
 .consider {
   width: 350px;
   text-align: center;
-  padding:20px;
+  padding:20px 10px;
   margin-top:-90px;
+  margin-left:-30px;
  
-}.backgound-finAcc{
+}
+.backgound-finAcc{
   padding:50px 60px;
   margin-left:-50px;
  
