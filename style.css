@@ -2956,7 +2956,7 @@ font-size: 16px;
     gap: 5px;
     position: relative;
     top: -90px;
-    right: -60px;
+    right: -65px;
     flex-wrap: nowrap;       /* don't wrap the tabs */
 }
 
