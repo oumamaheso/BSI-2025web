@@ -2140,11 +2140,7 @@ left:0
   }
 
   /* Shrink big images */
-  .accAndTraining {
-    width: 100%;
-    height: auto;
-    margin-top: 0;
-  }
+  
 
   /* Tabs to be vertical or scrollable */
  
@@ -2377,7 +2373,7 @@ left:0
   }
     .Home-tabs {
     display: flex;           /* keep tabs in a row */
-    gap: 5px;
+    gap: 3px;
     position: relative;
     top: -90px;
     right: -60px;
@@ -2385,7 +2381,7 @@ left:0
 }
 
 .Homepage {
-    padding: 6px 5px;
+    padding: 6px 1px;
     font-size: 14px;
     text-decoration: none;
     display: inline-block;
@@ -2666,7 +2662,7 @@ font-size: 16px;
   }
     .Home-tabs {
     display: flex;           /* keep tabs in a row */
-    gap: 5px;
+    gap: 3px;
     position: relative;
     top: -90px;
     right: -60px;
@@ -2674,7 +2670,7 @@ font-size: 16px;
 }
 
 .Homepage {
-    padding: 6px 5px;
+    padding: 6px 1px;
     font-size: 14px;
     text-decoration: none;
     display: inline-block;
@@ -2942,13 +2938,13 @@ font-size: 16px;
 
 
   }.tabs{
-     display: flex;           /* Arrange children in a row */
-    gap: 10px;               /* Space between tabs (adjust as needed) */
-    padding: 10 12px;
-    position: relative;      /* Use relative instead of absolute for normal flow */
-    top: 20px;                  /* Reset top if needed */
-    right: 40px;                /* Reset right if needed */
-    flex-wrap: wrap;
+    display: flex;           /* keep tabs in a row */
+    gap: 1px;
+    position: relative;
+    top: -180px;
+    right: -75px;
+    flex-wrap: nowrap; 
+   
       
   }
     .Home-tabs {
@@ -3167,6 +3163,13 @@ font-size: 16px;
       text-align: center;       /* optional: center text for better layout */
       font-size: 14px; 
       background-repeat: no-repeat;         /* smaller text on mobile */
+  }.accAndTraining {
+    height: auto !important;
+    max-width: 45vw !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    top: -60px !important;
+    left: -90px !important;
   }
 
 }
