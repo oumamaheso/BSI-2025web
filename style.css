@@ -2393,7 +2393,7 @@ left:0
   
 }.contact-tabs {
     position: relative;       /* remove absolute offsets */
-    top: -160px;
+    top: -150px;
     right: -30px;
     gap: 75px;
   
@@ -2722,7 +2722,7 @@ font-size: 16px;
   
 }.contact-tabs {
     position: relative;       /* remove absolute offsets */
-    top: -160px;
+    top: -150px;
     right: -30px;
     gap: 75px;
   
@@ -2999,7 +2999,7 @@ font-size: 16px;
     width:50px;
   }.contact-tabs {
     position: relative;       /* remove absolute offsets */
-    top: -160px;
+    top: -150px;
     right: -30px;
     gap: 75px;
   
