@@ -76,14 +76,30 @@ html {
   margin-left:500px;
   font-size:30px;
 }.about-bsi {
-  background-image: url("images/BSISA.avif"); /* Replace with your background image */
-  background-size:cover;    /* Make image cover entire div */
-  background-position: center;  /* Center the image */
-  padding: 40px;                /* Add spacing inside */                /* Change text color for readability */
-  border-radius: 0px;          /* Optional: rounded corners */
-  box-shadow: 0 4px 15px rgba(0,0,0,0.3); /* Optional shadow */
-  margin-top:100px;
+  position: relative;
+  padding: 40px;
+  margin-top: 100px;
+  border-radius: 0px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  color: black;
+  overflow: hidden;
+  z-index: 1;
 }
+
+/* Background with light overlay */
+.about-bsi::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("images/backImg.png") no-repeat center center/cover;
+  opacity: 0.6;          /* make it dimmer instead of blurring */
+  z-index: -1;
+}
+
+
 .about-bsi h2{
   color:#0c3c80;
   text-align: center;
@@ -94,14 +110,15 @@ html {
   position: relative;
   margin-left:70px;
   font-size:18px;
+  font-weight: 599;
 }.promiseBSI h2{
   color:#0c3c80;
   text-align: center;
   text-decoration: underline;
   font-size:30px;
   margin-top:100px;
-
-}.promiseBSI p{
+}
+.promiseBSI p{
   position: relative;
   margin-left:70px;
   font-size:18px;
@@ -3247,14 +3264,11 @@ font-size: 16px;
         gap: 5px;
         margin: 60px 0 30px 0;
 
-    }.about-bsi{
-  margin-top:100px;
+    
 }.about-bsi p{
   margin-left:10px;
 
-}.wealth{
-  margin-left:-30px;
-}.about-bsi {
+} .about-bsi {
       padding: 20px;           /* reduce padding for small screens */
       margin-top: 50px;        /* adjust spacing */
       background-size: cover; /* ensures image scales without cropping too much */
@@ -3262,7 +3276,10 @@ font-size: 16px;
       text-align: center;       /* optional: center text for better layout */
       font-size: 14px; 
       background-repeat: no-repeat;         /* smaller text on mobile */
-  }.accAndTraining {
+  }
+.wealth{
+  margin-left:-30px;
+}.accAndTraining {
     height: auto !important;
     max-width: 35vw !important;
     margin: 0 auto !important;
