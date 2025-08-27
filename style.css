@@ -2614,6 +2614,10 @@ font-size: 16px;
   }.accred-desc{
     margin-left:10px;
     margin-top:10px;
+  }.card{
+    margin-left:30px;
+  }.card p{
+    margin-left:30px;
   }
     
 }/* Very small phones */
@@ -2943,6 +2947,10 @@ font-size: 16px;
   }.accred-desc{
     margin-left:10px;
     margin-top:10px;
+  }.card{
+    margin-left:30px;
+  }.card p{
+    margin-left:30px;
   }
 
 }@media (max-width: 1024px) {
@@ -3274,6 +3282,10 @@ font-size: 16px;
   }.accred-desc{
     margin-left:10px;
     margin-top:10px;
+  }.card{
+    margin-left:30px;
+  }.card p{
+    margin-left:30px;
   }
 
 }
