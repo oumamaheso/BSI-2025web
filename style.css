@@ -234,7 +234,7 @@ header {
     flex-direction:column;
      flex: 1;
 }.learnPage{
-  position: absolute;
+  position: relative;
     top: 30px;
     display:flex;
     margin-left:40px;
