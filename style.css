@@ -2649,7 +2649,21 @@ font-size: 16px;
     margin-left:30px;
   }.card p{
     margin-left:30px;
-  }
+  }.learnPage{
+  position: relative;
+    top: 30px;
+    display:flex;
+    margin-left:30px;
+    flex-direction:column;
+     flex: 1;
+}.Coll{
+  position:relative;
+    top: 30px;
+    display:flex;
+    margin-left:50px;
+    flex-direction:column;
+     flex: 1;
+}
     
 }/* Very small phones */
 @media (max-width: 480px) {
@@ -2857,6 +2871,7 @@ font-size: 16px;
     position: relative !important;
     top: -10px !important;
     left: -100px !important;
+    
   
 }.LogoC {
     height: auto !important;
@@ -2982,7 +2997,21 @@ font-size: 16px;
     margin-left:30px;
   }.card p{
     margin-left:30px;
-  }
+  }.learnPage{
+  position: relative;
+    top: 30px;
+    display:flex;
+    margin-left:30px;
+    flex-direction:column;
+     flex: 1;
+}.Coll{
+  position:relative;
+    top: 30px;
+    display:flex;
+    margin-left:50px;
+    flex-direction:column;
+     flex: 1;
+}
 
 }
 
