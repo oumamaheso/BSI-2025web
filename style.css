@@ -227,7 +227,8 @@ header {
    flex-direction: column;
    flex: 1;
    width: 100%;            /* make sure it spans across */
-   box-sizing: border-box; /* prevent overflow issues */
+   box-sizing: border-box;
+   align-items: flex-start; /* prevent overflow issues */
 }.reach {
   display: flex;
   flex-direction: column;
