@@ -222,13 +222,15 @@ header {
 }.Acc{
   position: absolute;
     top: 30px;
-    
     display:flex;
     flex-direction:column;
-    
      flex: 1;
-    
-   
+}.Coll{
+  position: absolute;
+    top: 30px;
+    display:flex;
+    flex-direction:column;
+     flex: 1;
 }
  
 
