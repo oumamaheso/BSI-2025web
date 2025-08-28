@@ -229,7 +229,18 @@ header {
   flex-direction: column;
   width: 100%;
   box-sizing: border-box;
-}.reach {
+
+}.Acc .get-in-touch {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   justify-content: space-between;
+   align-items: flex-start;
+   margin-top: 30px;
+   box-sizing: border-box;
+   width: 100%;
+}
+.reach {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
