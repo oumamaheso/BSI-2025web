@@ -220,7 +220,7 @@ header {
     align-items: flex-start;
      flex: 1;
 }.Acc{
-  position: static;
+  position: relative;
     top: 30px;
     left: 30px;
     display: flex;
