@@ -211,7 +211,7 @@ header {
 }
 
 /* Position the navigation to the top right */
-.main,.Coll,.Acc,.reach {
+.main{
     position: absolute;
     top: 20px;
     left: 0px;
@@ -220,16 +220,13 @@ header {
     align-items: flex-start;
      flex: 1;
 }
- .Acc{
-   top: 20px;
-   left: 0px;
-   position: absolute;
+.Acc {
+   position: relative;     /* or remove position entirely */
+   margin-top: 20px;       /* keeps your spacing */
    display: flex;
    flex-direction: column;
    flex: 1;
-
- 
- }.reach {
+}.reach {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
