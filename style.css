@@ -10,16 +10,6 @@ body {
 
 }h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
-}.Acc .get-in-touch {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px; /* spacing between boxes */
-  justify-content: center;
-  align-items: flex-start;
-  margin-top: 30px;
-}.Acc .get-in-touch > div {
-  flex: 1 1 280px;   /* minimum width before wrapping */
-  max-width: 350px;  /* stops from stretching too wide */
 }
 
 
@@ -234,7 +224,7 @@ header {
     top: 30px;
     left: 40px;
     display: flex;
-    flex-direction: column;
+    
     align-items: flex-start;
      flex: 1;
 }
@@ -2478,10 +2468,7 @@ left:0
     margin-top: 300px;
    
 
-}.Acc .get-in-touch {
-    flex-direction: column;
-    align-items: center;
-  }
+}
 .contact-logo{
     width: 300px;
 }.finexBacks {
