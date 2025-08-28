@@ -221,8 +221,9 @@ header {
      flex: 1;
 }
 .Acc {
+
     max-width: 1200px;   /* limits width for very large screens */
-    width: 100%;         /* makes it shrink on smaller screens */
+    width: auto;         /* makes it shrink on smaller screens */
     margin: 0 auto;      /* centers it */
     padding: 20px;       /* adds spacing inside */
     box-sizing: border-box; /* ensures padding doesn't break layout */
