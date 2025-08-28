@@ -230,7 +230,7 @@ header {
   width: 100%;
   box-sizing: border-box;
 
-}.Acc .get-in-touch {
+}.Acc .get-in {
    display: flex;
    flex-wrap: wrap;
    gap: 20px;
@@ -239,7 +239,7 @@ header {
    margin-top: 30px;
    box-sizing: border-box;
    width: 100%;
-   margin-left:200px;
+   
 }
 .reach {
   display: flex;
