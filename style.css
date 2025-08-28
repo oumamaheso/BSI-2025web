@@ -227,7 +227,7 @@ header {
     flex-direction:column;
      flex: 1;
 }.Coll{
-  position: relative;
+  position: absolute;
     top: 30px;
     display:flex;
     margin-left:50px;
