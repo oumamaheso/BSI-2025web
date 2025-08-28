@@ -691,7 +691,7 @@ ul {
 }.durban{
     padding-left:900px ;
     margin-top:-210px;
-    position: relative;
+    position:absolute;
 }.appointments{
     font-size:12px;
     font-weight:bold;
