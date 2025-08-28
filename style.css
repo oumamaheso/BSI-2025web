@@ -224,7 +224,7 @@ header {
     top: 30px;
     left: 40px;
     display: flex;
-    
+    flex-direction: row;
     align-items: flex-start;
      flex: 1;
 }
