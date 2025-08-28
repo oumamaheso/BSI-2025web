@@ -221,12 +221,12 @@ header {
      flex: 1;
 }.Acc{
   position: absolute;
-    top: 10px;
+    top: 30px;
     left: 30px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-     flex: 1;
+     flex: 2;
 }
 
 .reach {
