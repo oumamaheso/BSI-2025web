@@ -222,14 +222,15 @@ header {
 }.Acc{
   position: absolute;
     top: 30px;
-    left: 40px;
+    
     display:flex;
     flex-direction:column;
-    align-items: flex-start;
+    
      flex: 1;
     
    
 }
+ 
 
 .reach {
   display: flex;
@@ -864,10 +865,13 @@ left:0
     margin-left:100px;
    
     
-}.offeredServices{
+}.offeredServices {
+
     color: #0c3c80;
     text-align:center;
     text-decoration: underline;
+  
+
 }.tabs{
   position:relative;
   top: -300px;
