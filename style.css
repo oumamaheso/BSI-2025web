@@ -221,25 +221,11 @@ header {
      flex: 1;
 }
 .Acc {
-  position: relative !important;
-  top: auto !important;
-  left: 20px;
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  box-sizing: border-box;
-
-}.Acc .get-in {
-   display: flex;
-   flex-wrap: wrap;
-   gap: 20px;
-   justify-content: space-between;
-   align-items: flex-start;
-   margin-top: 30px;
-   box-sizing: border-box;
-   width: 100%;
-   
+    max-width: 1200px;   /* limits width for very large screens */
+    width: 100%;         /* makes it shrink on smaller screens */
+    margin: 0 auto;      /* centers it */
+    padding: 20px;       /* adds spacing inside */
+    box-sizing: border-box; /* ensures padding doesn't break layout */
 }
 .reach {
   display: flex;
