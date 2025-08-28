@@ -222,11 +222,13 @@ header {
 }.Acc{
   position: absolute;
     top: 30px;
-    left: 300px;
+    left: 40px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
      flex: 2;
+}.Acc h2{
+  left:60px;
 }
 
 .reach {
