@@ -213,7 +213,7 @@ header {
 /* Position the navigation to the top right */
 .main{
     position: absolute;
-    top: 20px;
+    top: 10px;
     left: 30px;
     display: flex;
     flex-direction: column;
