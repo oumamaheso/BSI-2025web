@@ -221,7 +221,7 @@ header {
      flex: 1;
 }
 .Acc {
-   position: relative;     /* or just remove this line */
+   position: absolute;     /* or just remove this line */
    margin-top: 20px;       /* replaces top:20px */
    display: flex;
    flex-direction: column;
