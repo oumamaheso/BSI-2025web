@@ -933,15 +933,6 @@ left:0
     text-align: center;
     color: #0c3c80;
     text-decoration: underline;
-}.get-inAcc{
-     display: flex;
-    align-items: center;
-    gap: 10px;
-    margin: 80px 0;
-    margin-top: 300px;
-}
-.get-inAcc h2{
-    color:white;
 }
  .logos2Acc{
     position: absolute;
