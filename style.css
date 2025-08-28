@@ -233,6 +233,13 @@ header {
     margin-left:50px;
     flex-direction:column;
      flex: 1;
+}.learnPage{
+  position: absolute;
+    top: 30px;
+    display:flex;
+    margin-left:50px;
+    flex-direction:column;
+     flex: 1;
 }
  
 
