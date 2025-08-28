@@ -220,14 +220,7 @@ header {
     align-items: flex-start;
      flex: 1;
 }
-.Acc {
 
-    max-width: 1200px;   /* limits width for very large screens */
-    width: auto;         /* makes it shrink on smaller screens */
-    margin: 0 auto;      /* centers it */
-    padding: 20px;       /* adds spacing inside */
-    box-sizing: border-box; /* ensures padding doesn't break layout */
-}
 .reach {
   display: flex;
   flex-direction: column;
