@@ -223,8 +223,8 @@ header {
   position: absolute;
     top: 30px;
     left: 40px;
-    display: flex;
-    flex-direction: row;
+    display:inline-block;
+    flex-direction:column;
     align-items: flex-start;
      flex: 1;
 }
