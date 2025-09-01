@@ -246,16 +246,6 @@ header {
 }
  
 
-.reach {
-   position: absolute;
-    top: 30px;
-    margin-left:30px;
-    display:flex;
-    flex-direction:column;
-     flex: 1;
- 
-
-}
 
 .logo {
 height: 150px;
