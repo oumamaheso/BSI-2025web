@@ -243,21 +243,8 @@ header {
     margin-left:30px;
     flex-direction:column;
      flex: 1;
-}body.contact-page {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-}
-
-body.contact-page header {
-  flex: 1;
-}
-
-body.contact-page footer.color {
+}.reach .color{
   margin-top: auto;
-  background: #fff; /* optional */
-  padding: 20px;
 }
 
  
