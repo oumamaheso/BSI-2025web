@@ -1841,7 +1841,7 @@ left:0
 }.contact-tabs{
   position:relative;
   top: -200px;
-  right:-720px;
+  right:-650px;
   display: flex;
   gap: 1px;
   padding: 20px;
@@ -2772,8 +2772,8 @@ font-size: 16px;
 }.contact-tabs {
     position: relative;       /* remove absolute offsets */
     top: -80px;
-    right: -70px;
-    gap: 75px;
+    right: -58px;
+    gap: 80px;
   
 }.contact-tabs a{
   width: 0px;
@@ -2887,7 +2887,7 @@ font-size: 16px;
     margin: 0 auto !important;
     position: relative !important;
     top: -10px !important;
-    left: -110px !important;
+    left: -130px !important;
 }
 .video-container{
   margin-left:-30px;
