@@ -248,17 +248,14 @@ header {
  
 
 .reach {
-   position: absolute;
-   min-height: 10vh; 
-    top: 30px;
+   position: absolute; 
+    top: 80px;
     margin-left:30px;
     display:flex;
     flex-direction:column;
      flex: 1;
     
 
-}.contact-page{
-  min-height:5000vh;
 }
 
 .logo {
