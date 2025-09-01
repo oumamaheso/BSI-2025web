@@ -10,7 +10,26 @@ body {
 
 }h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
+}/* Only affects Contact page */
+.contact-page {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
 }
+
+.contact-page header {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-page .color {
+  margin-top: auto;
+  padding: 20px;
+}
+
 
 
 
@@ -21,7 +40,8 @@ body {
   box-sizing: border-box;
   color:white;
   margin-top:10px;
-}.whatsapp-section{
+}
+.whatsapp-section{
   text-align: center; 
   margin: 40px 0;
 }.whatsapps{
@@ -55,9 +75,9 @@ html {
   width: 90%;
   height: 4px;
   border: none;
-  background-color: #0056D2; /* Bright Blue */
-  margin: 40px auto; /* top and bottom spacing */
-  clear: both; /* ensures it's not affected by floats */
+  background-color: #0056D2;
+  margin: 40px auto; 
+  clear: both; 
 }.project{
   margin-top:250px;
 }
