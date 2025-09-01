@@ -247,7 +247,7 @@ header {
 
  
 
-.reach {
+.contact-page {
    position: absolute;
    min-height: 10vh; 
     top: 30px;
@@ -257,8 +257,6 @@ header {
      flex: 1;
     
 
-}.contact-page{
-  min-height:50vh;
 }
 
 .logo {
