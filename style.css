@@ -243,7 +243,26 @@ header {
     margin-left:30px;
     flex-direction:column;
      flex: 1;
+}/* Contact page layout */
+body.contact-page {
+  min-height: 100vh;      /* full screen height */
+  display: flex;
+  flex-direction: column;
+  margin: 0;
 }
+
+/* Let header/maps take up space */
+body.contact-page header {
+  flex: 1;
+}
+
+/* Footer always at bottom */
+body.contact-page .color {
+  margin-top: auto;       /* pushes it down */
+    /* optional styling */
+  padding: 20px;
+}
+
  
 
 .reach {
@@ -253,7 +272,7 @@ header {
     display:flex;
     flex-direction:column;
      flex: 1;
-     height:50vh
+    
 
 }
 
