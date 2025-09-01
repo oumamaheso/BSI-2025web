@@ -257,6 +257,8 @@ header {
      flex: 1;
     
 
+}.contact-page{
+  min-height:50vh;
 }
 
 .logo {
