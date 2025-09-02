@@ -249,10 +249,11 @@ header {
 
 .reach {
    position: absolute; 
-    top: 80px;
+    top: 30px;
     margin-left:30px;
     display:flex;
     flex-direction:column;
+    align-items: flex-start;
      flex: 1;
     
 
@@ -1104,7 +1105,7 @@ button:hover {
   position: relative;
   width: 100%;
   min-height: 200px;
-  background: url('images/financialAcc.jpeg') center/cover no-repeat;
+  background: url('images/finACC.jpg') center/cover no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1112,7 +1113,7 @@ button:hover {
   padding:40px 20px;
   margin-top:-100px;
   overflow: hidden;
-  color:white;
+  color:#000;
   z-index: 1;
 }.backgound-finAcc::before {
   content: "";
@@ -1121,7 +1122,85 @@ button:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('images/financialAcc.jpeg') center/cover no-repeat;
+  background: url('images/finACC.jpg') center/cover no-repeat;
+  filter: blur(1px);
+  z-index:-1;
+}.backgound-business{
+  text-align: center;
+  font-size:18px;
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+  background: url('images/businessManagement.jpg') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:40px 20px;
+  margin-top:-100px;
+  overflow: hidden;
+  color:#000;
+  z-index: 1;
+}.backgound-business::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('images/businessManagement.jpg') center/cover no-repeat;
+  filter: blur(1px);
+  z-index:-1;
+}.backgound-Office{
+  text-align: center;
+  font-size:18px;
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+  background: url('images/admin.jpeg') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:40px 20px;
+  margin-top:-100px;
+  overflow: hidden;
+  color:#000;
+  z-index: 1;
+}.backgound-Office::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('images/admin.jpeg') center/cover no-repeat;
+  filter: blur(1px);
+  z-index:-1;
+}.backgound-English{
+  text-align: center;
+  font-size:18px;
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+  background: url('images/englishComm.jpg') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:40px 20px;
+  margin-top:-100px;
+  overflow: hidden;
+  color:#000;
+  z-index: 1;
+}.backgound-English::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('images/englishComm.jpg') center/cover no-repeat;
   filter: blur(1px);
   z-index:-1;
 }
