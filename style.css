@@ -104,9 +104,11 @@ html {
 
 .pillarsOFBSI img {
     width: 600px;  
-    height: 300px;  
+    height: 250px;  
     object-fit: cover;     
-    margin: 0;             
+    margin: 0; 
+    margin-left:700px;  
+    padding:80px        
 }
 
 
@@ -114,7 +116,11 @@ html {
     font-weight: bold;
     flex: 1;               
     text-align: left;
-    font-size:18px;
+    font-size:20px;
+    margin-left:-590px;
+    padding:10px 690px;
+    margin-top:-300px;
+    
 }
 
 
@@ -139,8 +145,8 @@ html {
   margin-top:100px;
 }.about-bsi p{
   position: relative;
-  margin-left:70px;
-  font-size:18px;
+  margin-left:-20px;
+  font-size:20px;
   font-weight: 599;
   font-weight:bold;
 }.promiseBSI h2{
@@ -153,7 +159,7 @@ html {
 .promiseBSI p{
   position: relative;
   margin-left:10px;
-  font-size:18px;
+  font-size:20px;
   font-weight:bold;
   text-align: center;
 
@@ -161,8 +167,8 @@ html {
 .stats {
     margin-top: 40px;
 }.stats p{
-  margin-left:70px;
-  font-size:18px;
+  margin-left:10px;
+  font-size:20px;
   font-weight: bold;
 
 }
@@ -172,7 +178,7 @@ html {
     color: #0c3c80;
     margin-bottom: 20px;
     display: inline-block;
-    border-bottom: 3px solid #0c3c80; /* choose your color */
+    border-bottom: 3px solid #0c3c80; 
     padding-bottom: 0px;
     text-align: center;
     margin-left:550px;
@@ -180,8 +186,8 @@ html {
 
 .stat-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 300px));
+    gap: 30px;
     margin-top:50px;
 }
 
@@ -213,8 +219,6 @@ html {
   position:absolute;
   font-size:30px;
   color:#0c3c80;
-  display: inline-block;
-  border-bottom: 3px solid #0c3c80;
   margin-left:600px;
   margin-top:-100px;
   text-align: center;
@@ -227,7 +231,7 @@ html {
 }.internships p{
   margin-left:20px;
   margin-top:20px;
-  font-size:18px;
+  font-size:20px;
   font-weight:bold;
 
 }.paragraphsHome p{
