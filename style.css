@@ -88,8 +88,36 @@ html {
   overflow: hidden;
   z-index: 1;
 }
+.pillarsOFBSI {
+    margin-top: 50px;  
+    display: flex;          
+    flex-direction: column; 
+    gap: 30px;              
+}
 
-/* Background with light overlay */
+.pillarsOFBSI .pillar {
+    display: flex;
+    align-items: center;    
+    gap: 20px;            
+}
+
+
+.pillarsOFBSI img {
+    width: 600px;  
+    height: 300px;  
+    object-fit: cover;     
+    margin: 0;             
+}
+
+
+.pillarsOFBSI p {
+    font-weight: bold;
+    flex: 1;               
+    text-align: left;
+    font-size:18px;
+}
+
+
 .about-bsi::before {
   content: "";
   position: absolute;
