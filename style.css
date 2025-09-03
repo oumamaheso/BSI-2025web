@@ -93,6 +93,11 @@ html {
     display: flex;          
     flex-direction: column; 
     gap: 30px;              
+}.pillarsOFBSI h2{
+  text-align: center;
+  color:#0c3c80;
+  margin-top:50px;
+  font-size:30px
 }
 
 .pillarsOFBSI .pillar {
@@ -225,7 +230,8 @@ html {
 
 }.intern{
   width:600px;
-  margin-left:20px;
+  margin-left:400px;
+
 }.internships{
   margin-top:200px;
 }.internships p{
