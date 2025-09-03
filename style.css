@@ -81,7 +81,7 @@ html {
 }.about-bsi {
   position: relative;
   padding: 40px;
-  margin-top: 100px;
+  margin-top: 30px;
   border-radius: 0px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.3);
   color: black;
@@ -114,6 +114,7 @@ html {
   margin-left:70px;
   font-size:18px;
   font-weight: 599;
+  font-weight:bold;
 }.promiseBSI h2{
   color:#0c3c80;
   text-align: center;
@@ -123,8 +124,10 @@ html {
 }
 .promiseBSI p{
   position: relative;
-  margin-left:70px;
+  margin-left:10px;
   font-size:18px;
+  font-weight:bold;
+  text-align: center;
 
 }
 .stats {
@@ -132,6 +135,8 @@ html {
 }.stats p{
   margin-left:70px;
   font-size:18px;
+  font-weight: bold;
+
 }
 
 .stats h2 {
@@ -195,6 +200,7 @@ html {
   margin-left:20px;
   margin-top:20px;
   font-size:18px;
+  font-weight:bold;
 
 }.paragraphsHome p{
   margin-top:-550px;
