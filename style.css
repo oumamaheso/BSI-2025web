@@ -92,12 +92,14 @@ html {
     margin-top: 50px;  
     display: flex;          
     flex-direction: column; 
-    gap: 30px;              
+    gap: 30px;  
+              
 }.pillarsOFBSI h2{
   text-align: center;
   color:#0c3c80;
   margin-top:50px;
-  font-size:30px
+  font-size:30px;
+  font-weight:bold;
 }
 
 .pillarsOFBSI .pillar {
