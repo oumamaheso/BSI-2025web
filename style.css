@@ -2796,6 +2796,15 @@ font-size: 16px;
     margin-left:10px;
     flex-direction:column;
      flex: 1;
+}.pillarsOFBSI p{
+  position:relative;
+  padding: 10px 10px;
+  margin-left:-10px;
+   margin-top:-500px
+}.Progr p{
+  position: relative;
+  padding:10px 10px;
+  margin-top:200px;
 }
     
 }/* Very small phones */
@@ -3144,6 +3153,15 @@ font-size: 16px;
     margin-left:10px;
     flex-direction:column;
      flex: 1;
+}.pillarsOFBSI p{
+  position:relative;
+  padding: 10px 10px;
+  margin-left:-10px;
+   margin-top:-500px
+}.Progr p{
+  position: relative;
+  padding:10px 10px;
+  margin-top:200px;
 }
 
 }
