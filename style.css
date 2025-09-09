@@ -87,6 +87,9 @@ html {
   color: black;
   overflow: hidden;
   z-index: 1;
+}.pillarsOFBSI p b {
+  color: #0c3c80;
+  font-weight:bolder;
 }
 .pillarsOFBSI {
     margin-top: 50px;  
@@ -172,6 +175,9 @@ html {
   font-weight:bold;
   text-align: center;
 
+}.stats p u {
+  color: #0c3c80; 
+  font-weight: bold;
 }
 .stats {
     margin-top: 40px;
