@@ -96,11 +96,14 @@ html {
               
 }.pillarsOFBSI h2{
   text-align: center;
-  color:#0c3c80;
-  margin-top:50px;
-  font-size:30px;
-  font-weight:bold;
-}
+  color: #0c3c80;
+  margin: 50px auto;
+  font-size: 30px;
+  font-weight: bold;
+  display: inline-block; 
+  border-bottom: 3px solid #0c3c80;
+  padding-bottom: 5px; 
+} 
 
 .pillarsOFBSI .pillar {
     display: flex;
@@ -129,7 +132,6 @@ html {
     margin-top:-300px;
     
 }
-
 
 .about-bsi::before {
   content: "";
@@ -244,7 +246,7 @@ html {
 
 }.paragraphsHome p{
   margin-top:-550px;
-  font-size:18px;
+  font-size:20px;
   margin-left:420px;
   padding: 100px 220px;
 }
@@ -926,7 +928,7 @@ top:0;
 left:0
 }.AccInfo{
     margin-top: -80px;
-    font-size:18px;
+    font-size:20px;
     margin-left:100px;
    
     
@@ -993,7 +995,7 @@ left:0
     width:200px;
 
 }.aboutBSI p{
-    font-size:18px;
+    font-size:20px;
     margin-top: 220px;
     margin-left:-200px;
 }.aboutBSI {
@@ -1020,7 +1022,7 @@ left:0
     margin-top: 40px;
   
 }.teams{
-    font-size: 18px;
+    font-size: 20px;
     margin-left: 100px;
 }.accreditation-title {
    
@@ -1035,7 +1037,7 @@ left:0
     padding: 20px;
     font-size:30px;
 }.accreditations p{
-    font-size:18px;
+    font-size:20px;
 }
 
 
@@ -1283,9 +1285,10 @@ display: flex;
 
 .Progr p {
   overflow: hidden;
-    line-height: 1.6;
-    margin-bottom: 40px;
-    clear: both;
+  margin-bottom: 40px;
+  font-size:20px;
+    
+
   
 }
 
@@ -1318,7 +1321,7 @@ display: flex;
     text-decoration: underline;
     margin-top:-80px;
 }.missions-P{
-    font-size:18px;
+    font-size:20px;
     margin-left:100px;
    
 }.test{
@@ -1359,7 +1362,7 @@ display: flex;
 
 
 .consider p {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .stud-testimonials {
@@ -1730,7 +1733,7 @@ left:0
 }
 
 .whyBSI .feature p {
-  font-size: 18px;
+  font-size: 20px;
   
 }
 
