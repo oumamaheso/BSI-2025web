@@ -289,8 +289,8 @@ header {
     display:flex;
     margin-left:50px;
     flex-direction:column;
-    
      flex: 1;
+     
 }.learnPage{
   position: absolute;
     top: 30px;
@@ -1090,6 +1090,7 @@ left:0
 
 .accreditations-track {
   display: flex;
+  width: max-content;
   animation: scroll-logos 20s linear infinite;
 }.accreditations-track1 {
  animation: scroll-logos 20s linear infinite;
@@ -1099,6 +1100,39 @@ left:0
 }
 
 
+@keyframes scroll-logos {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}.logo-slider {
+  position: relative;
+  width: 100%;
+  height: 100px;         /* fixed height of your logo strip */
+  overflow: hidden;      /* hide anything outside */
+  margin-top: 20px;
+}
+
+/* The moving track */
+.logo-track {
+  position: absolute;    /* takes it out of page flow so it can’t push layout */
+  top: 0;
+  left: 0;
+  display: flex;
+  animation: scroll-logos 25s linear infinite;
+}
+
+/* Logos themselves */
+.accred-logo {
+  height: 80px;
+  margin: 0 40px;        /* spacing between logos */
+  flex-shrink: 0;        /* don’t shrink */
+  object-fit: contain;
+}
+
+/* Animation */
 @keyframes scroll-logos {
   0% {
     transform: translateX(0);
@@ -3190,7 +3224,7 @@ font-size: 16px;
   text-align: center;
  
 }.collegeAccre{
-  margin-left:60px;
+  margin-left:-100px;
 }
 .consider {
   width: 350px;
