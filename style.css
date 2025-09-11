@@ -276,7 +276,6 @@ header {
     flex-direction: column;
     align-items: flex-start;
      flex: 1;
-     font-size:20px;
 }.Acc{
   position: absolute;
     top: 30px;
@@ -745,47 +744,58 @@ ul {
     padding-left:30px;
     color: #000;
     vertical-align: bottom;
+    font-weight: normal;
 }.address3{
     font-style: italic;
     color:#000;
     vertical-align: bottom;
+    font-weight: normal;
 }.address1{
   color:#000;
   vertical-align:bottom;
+  font-weight: normal;
 }
 .phone{
     height: 20px;
+    font-weight: normal;
 }.phone1{
     margin-top:-30px;
     position: relative;
     padding-left:40px;
     font-style:italic;
     color:#000;
+    font-weight: normal;
 }.jozi{
     padding-left: 500px;
     position:relative;
     margin-top: -215px;
+    font-weight: normal;
 }.durban{
     padding-left:900px ;
     margin-top:-210px;
     position:relative;
     white-space: nowrap;
+    font-weight: normal;
 }.appointments{
     font-size:12px;
-    font-weight:bold;
+    font-weight: normal;
+    
 }.whatsapp{
     height: 30px;
+    font-weight: normal;
 }.phoneapp{
     position:relative; 
     padding-left: 40px;
     margin-top: -35px;
     font-size:20px;
+    font-weight: normal;
 }
 .container1 {
     display: flex;
     margin-top: 20px;
     padding-left: 150px;
-    color:#000
+    color:#000;
+    font-weight: normal;
 }
 .information{
     
@@ -793,7 +803,8 @@ ul {
     padding-left:190px;
     margin-top: 40px;
     font-size:25px;
-    color:#000
+    color:#000;
+    font-weight: normal;
    
     
 }.hours{
@@ -802,10 +813,12 @@ ul {
     padding-left:-200px;
     margin-top: 20px;
     color:#000;
+    font-weight: normal;
    
 }.social{
  
   height: 30px;
+  font-weight: normal;
   
 }.socia {
   position:relative;     /* stays in flow, but at bottom */
@@ -814,25 +827,31 @@ ul {
   margin-left:1000px;;         /* align left */
   width: 300px;           /* you can adjust size here */
   height:150px;
+  font-weight: normal;
 }.information a,
 .informationAcc a {
   text-decoration: none;         /* Removes underline */
-  outline: none;                 /* Removes blue focus outline */
+  outline: none; 
+  font-weight: normal;                /* Removes blue focus outline */
 }
 .locations{
     height:30px;
+    font-weight: normal;
 
 }.mails{
     height:20px;
+    font-weight: normal;
 }.information1{
     position:relative; 
     padding-left: 40px;
     margin-top: -30px;
     font-size:20px;
+    font-weight: normal;
     
 }
 .media{
     font-size:20px;
+    font-weight: normal;
 }.testimonial-header {
     display: flex;
     align-items: center;
@@ -852,7 +871,6 @@ ul {
 
 .left-box, .right-box {
     font-size: 20px;
-    font-weight: bold;
     color: #0c3c80;
 }.get-in{
     display: flex;
@@ -862,21 +880,25 @@ ul {
     margin: 40px 0;
     margin-top: -10px;
     margin-left:-800px;
-    color:#000
+    color:#000;
+    font-weight: normal;
  
 }.get-in h2 {
     text-align: center;
     font-size: 28px;
-    font-weight: 800;
     color:#000;
     line-height: 1.2;
     margin: 0;
+    font-weight: normal;
+}.office,
+.office1{
+  font-weight: normal;
 }
 
 .left-touch, .right-touch{
     font-size: 20px;
-    font-weight: bold;
     color:#000;
+    font-weight: normal;
    
 }.imgone,
 .imgtwo,
@@ -966,9 +988,9 @@ left:0
 .Homepage{
   text-decoration: none;
   padding: 20px 10px;
-  font-size:20px;
+  font-size:18px;
   color: #0c3c80;
-  font-weight:bold;
+ 
 
    
 }.about-tab{
@@ -1043,18 +1065,49 @@ left:0
     text-align: center;
     padding: 20px;
     font-size:30px;
+    margin-top:-70px;
 }.accreditations p{
     font-size:20px;
 }
 
 
 .accred-logo {
-    width: 130px;
-    margin: 10px;
-    vertical-align: middle;
-    margin-left:80px;
+  width: 130px;
+  margin: 10px;
+  vertical-align: middle;
+  margin-left:80px;
+  height: 80px; 
+  object-fit: contain;
 
-}#client-portal {
+
+  }.accreditations-wrapper,
+  .accreditations-wrapper1 {
+  overflow: hidden;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.accreditations-track {
+  display: flex;
+  animation: scroll-logos 20s linear infinite;
+}.accreditations-track1 {
+ animation: scroll-logos 20s linear infinite;
+ display: flex;
+ 
+  
+}
+
+
+@keyframes scroll-logos {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+  #client-portal {
   background: #f9f9f9;
   padding: 20px;
   margin: 40px auto;
@@ -1484,8 +1537,12 @@ display: flex;
   text-decoration: underline;
   color:#0c3c80;
 }.coll-Accre{
-  padding:10px;
-  width:200px;
+   width: 130px;
+  margin: 10px;
+  vertical-align: middle;
+  margin-left:80px;
+  height: 80px; 
+  object-fit: contain;
 }
 
 .learningImages {
@@ -2875,6 +2932,14 @@ font-size: 16px;
   position: relative;
   padding:10px 10px;
   margin-top:200px;
+}.Acc{
+  position:relative;
+    top: 30px;
+    display:flex;
+    margin-left:10px;
+    flex-direction:column;
+     flex: 1;
+
 }
     
 }/* Very small phones */
@@ -3232,6 +3297,14 @@ font-size: 16px;
   position: relative;
   padding:10px 10px;
   margin-top:200px;
+}.Acc{
+  position:relative;
+    top: 30px;
+    display:flex;
+    margin-left:10px;
+    flex-direction:column;
+     flex: 1;
+
 }
 
 }
