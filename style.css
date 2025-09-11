@@ -72,7 +72,7 @@ html {
   width: 100%;
   margin: 50px 0;
   margin-left:-350px;
-  margin-top:100px;
+  margin-top:50px;
 }.watch-youtube {
   text-align: center;
   margin-top: -15px;
@@ -447,6 +447,8 @@ ul {
     margin: 100px auto 0;     
     width: fit-content; 
     margin-top:55px;
+}.image-links p{
+  font-size:20px;
 }
 
 .image-container {
@@ -879,7 +881,7 @@ ul {
     justify-content: center;
     gap: 10px;
     margin: 40px 0;
-    margin-top: -10px;
+    margin-top: -80px;
     margin-left:-800px;
     color:#000;
     font-weight: normal;
@@ -997,12 +999,10 @@ left:0
 }.about-tab{
   position: absolute;
   text-decoration: none;
-  font-size:20px;
+  font-size:18px;
   color: #0c3c80;
   margin-left:1100px;
   margin-top:-120px;
-  font-weight: bold;
-
 }
 
 .Homepage:hover {
@@ -1081,66 +1081,40 @@ left:0
   object-fit: contain;
 
 
-  }.accreditations-wrapper,
-  .accreditations-wrapper1 {
+  }
+
+
+.logo-slider {
+  position: relative;       
   overflow: hidden;
   width: 100%;
-  margin-top: 20px;
+  height: 100px;           
 }
 
-.accreditations-track {
-  display: flex;
-  width: max-content;
-  animation: scroll-logos 20s linear infinite;
-}.accreditations-track1 {
- animation: scroll-logos 20s linear infinite;
- display: flex;
- 
-  
-}
-
-
-@keyframes scroll-logos {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}.logo-slider {
-  position: relative;
-  width: 100%;
-  height: 100px;         /* fixed height of your logo strip */
-  overflow: hidden;      /* hide anything outside */
-  margin-top: 20px;
-}
-
-/* The moving track */
 .logo-track {
-  position: absolute;    /* takes it out of page flow so it can’t push layout */
-  top: 0;
-  left: 0;
+  position: absolute;      
   display: flex;
-  animation: scroll-logos 25s linear infinite;
+  top: 0;                   
+  left: 0;
 }
 
-/* Logos themselves */
-.accred-logo {
-  height: 80px;
-  margin: 0 40px;        /* spacing between logos */
-  flex-shrink: 0;        /* don’t shrink */
-  object-fit: contain;
+
+
+@media (max-width: 768px) {
+  .accred-logo {
+    height: 60px;
+    margin: 0 10px;
+  }
 }
 
-/* Animation */
-@keyframes scroll-logos {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
+@media (max-width: 480px) {
+  .accred-logo {
+    height: 40px;
+    margin: 0 5px;
   }
 }
+
+
 
   #client-portal {
   background: #f9f9f9;
@@ -2147,6 +2121,7 @@ left:0
     justify-content: center;
     gap: 20px;
     padding: 20px;
+    margin-top:-80px;
 }.map{
     border: 2px solid #0c3c80;
     border-radius: 10px;
@@ -2858,13 +2833,14 @@ left:0
  
 }.collegeAccre{
   margin-left:60px;
-}
-.consider {
+}.consider {
   width: 350px;
   text-align: center;
   padding:20px;
   margin-top:-90px;
- 
+  margin-left:-30px;
+}.consider p{
+  padding:10px 29px;
 }.backgound-finAcc{
   padding:50px 60px;
   margin-left:-50px;
@@ -2977,6 +2953,14 @@ font-size: 16px;
     align-items:flex-start;
      flex: 1;
 
+}.study-methods{
+  margin-left:-30px;
+}.test{
+  margin-left: -50px;
+ 
+}.video-container-Testimony{
+  margin-left:100px;
+  width:30px;
 }
     
 }/* Very small phones */
@@ -3231,7 +3215,12 @@ font-size: 16px;
   text-align: center;
   padding:20px;
   margin-top:-90px;
- 
+  margin-left:-30px;
+}.consider p{
+  padding:10px 29px;
+  text-align: left;
+  
+
 }.backgound-finAcc{
   padding:50px 60px;
   margin-left:-50px;
@@ -3267,8 +3256,6 @@ font-size: 16px;
 }
 .stat-item {
     font-size: 16px;
-  }.accred-desc{
-    margin-left:-30px;
   }.get-in h2{
     margin-left:30px;
   } .get-in {
@@ -3307,6 +3294,7 @@ font-size: 16px;
   }.accred-desc{
     margin-left:10px;
     margin-top:10px;
+    padding:0px 400px;
   }.card{
     margin-left:30px;
   }.card p{
@@ -3344,9 +3332,18 @@ font-size: 16px;
      flex: 1;
      align-items:flex-start;
 
+}.study-methods{
+  margin-left:-30px;
+}.test{
+  margin-left: -50px;
+ 
+}.video-container-Testimony{
+  margin-left:100px;
+  width:30px;
+}
 }
 
-}
+
 
 
 

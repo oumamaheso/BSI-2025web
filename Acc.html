@@ -91,8 +91,8 @@
         <p class="accred-desc">
        Quality assurance is a huge priority at BSI and as such, we ensure all our professionals are members of or belong to at least one or more of the following bodies.
     </p>
-    <div class="accreditations-wrapper">
-  <div class="accreditations-track">
+    <div class="logo-slider">
+  <div class="logo-track" id="logoTrack">
     <img src="images/saiba.png"  class="accred-logo">
      <img src="images/sait.jpeg"  class="accred-logo">
       <img src="images/accountingTech.png"  class="accred-logo">
@@ -292,6 +292,37 @@
 
     fileInput.value = "";
   });
+</script>
+<script>
+const track = document.getElementById('logoTrack');
+
+// Clone all logos once for seamless loop
+track.innerHTML += track.innerHTML;
+
+function startLoop() {
+  const trackWidth = track.scrollWidth / 2; // width of one set
+  let start = null;
+
+  function step(timestamp) {
+    if (!start) start = timestamp;
+    const elapsed = timestamp - start;
+
+    const speed = 100; // pixels per second
+    const distance = (elapsed / 1000) * speed;
+
+    track.style.transform = `translateX(-${distance % trackWidth}px)`;
+
+    requestAnimationFrame(step); // keep looping
+  }
+
+  requestAnimationFrame(step);
+}
+
+window.addEventListener('load', startLoop);
+window.addEventListener('resize', () => {
+  track.style.transform = 'translateX(0)'; // reset on resize
+  startLoop();
+});
 </script>
 
 

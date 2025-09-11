@@ -13,7 +13,7 @@
                 <img src="images/BSIColl.png" class="LogoC">
                 <div class="tabsC">
                  <a href="index.html" class="Homepage">BSI Home</a>
-                  <a href="Acc.html" class="Homepage">BSI Accounting & Training Solutions</a>
+                  <a href="Acc.html" class="Homepage">BSI Accounting & Training </a>
                   <!----- <a href="finex.htm" class="Homepage">BSI Finex</a>---->
                     <a href="contact.htm" class="Homepage">Visit Us</a>
             </div>
@@ -107,8 +107,8 @@
     
     
     <h1>Accreditations</h1>
-    <div class="accreditations-wrapper">
-  <div class="accreditations-track">
+    <div class="logo-slider">
+  <div class="logo-track" id="logoTrack">
     <img src="images/icb.jpeg" class="coll-Accre">
       <img src="images/fasset.png" class="coll-Accre">
         <img src="images/highereducation.png" class="coll-Accre">
@@ -117,6 +117,7 @@
               <img src="images/saica.png" class="coll-Accre">
 </div>
     </div>
+</div>
      
 <br><br>
 
@@ -216,5 +217,37 @@
     });
   });
 </script>
+<script>
+const track = document.getElementById('logoTrack');
+
+// Clone all logos once for seamless loop
+track.innerHTML += track.innerHTML;
+
+function startLoop() {
+  const trackWidth = track.scrollWidth / 2; // width of one set
+  let start = null;
+
+  function step(timestamp) {
+    if (!start) start = timestamp;
+    const elapsed = timestamp - start;
+
+    const speed = 100; // pixels per second
+    const distance = (elapsed / 1000) * speed;
+
+    track.style.transform = `translateX(-${distance % trackWidth}px)`;
+
+    requestAnimationFrame(step); // keep looping
+  }
+
+  requestAnimationFrame(step);
+}
+
+window.addEventListener('load', startLoop);
+window.addEventListener('resize', () => {
+  track.style.transform = 'translateX(0)'; // reset on resize
+  startLoop();
+});
+</script>
+
     </body>
 </html>
