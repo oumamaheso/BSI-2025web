@@ -110,6 +110,37 @@
     </div>
 </section>
 
+<section id="client-portal">
+  <h2>Client Portal</h2>
+
+  <!-- Form to capture name and email -->
+  <form id="userForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <button type="submit">Save Profile</button>
+  </form>
+
+  <button id="viewProfileBtn">View Profile</button>
+  <div id="ProfileSection" style="display: none;">
+    <h3>Your Profile</h3>
+    <p><strong>Name:</strong> <span id="ProfileName"></span></p>
+    <p><strong>Email:</strong> <span id="ProfileEmail"></span></p>
+  </div>
+
+  <!-- Document upload section -->
+  <h3>Upload Documents</h3>
+  <form id="uploadForm">
+    <input type="file" id="fileInput" required>
+    <button type="submit">Upload Document</button>
+  </form>
+  <ul id="documentList"></ul>
+</section>
+
+
                    <div id="consultationForm" class="modal">
   <div class="modal-content">
     <span id="closeForm" class="close">&times;</span>
@@ -216,6 +247,52 @@
     }
   };
 </script>
+<script>
+  // Handle user form submission
+  const userForm = document.getElementById('userForm');
+  const viewProfileBtn = document.getElementById('viewProfileBtn');
+  const profileSection = document.getElementById('ProfileSection');
+
+  let userName = '';
+  let userEmail = '';
+
+  userForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    userName = document.getElementById('name').value;
+    userEmail = document.getElementById('email').value;
+
+    // Store values but don't show profile yet
+    document.getElementById('ProfileName').textContent = userName;
+    document.getElementById('ProfileEmail').textContent = userEmail;
+
+    alert("Profile saved! Click 'View Profile' to see it.");
+  });
+
+  // Show profile section when button is clicked
+  viewProfileBtn.addEventListener('click', function () {
+    profileSection.style.display = 'block';
+  });
+
+  // Handle document upload (keep your upload code)
+  const documentList = document.getElementById('documentList');
+  const uploadForm = document.getElementById('uploadForm');
+  const fileInput = document.getElementById('fileInput');
+
+  uploadForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    const file = fileInput.files[0];
+    if (!file) return;
+
+    const li = document.createElement('li');
+    li.textContent = file.name + " (just uploaded)";
+    documentList.appendChild(li);
+
+    fileInput.value = "";
+  });
+</script>
+
+
 
     </body>
 </html>
