@@ -289,6 +289,7 @@ header {
     display:flex;
     margin-left:50px;
     flex-direction:column;
+    
      flex: 1;
 }.learnPage{
   position: absolute;
@@ -2732,7 +2733,7 @@ left:0
 
   
 }.aboutBSI p{
-    margin-left:-50px;
+    margin-left:-10px;
     margin-top:-10px;
 
 }.usAbout{
@@ -2897,7 +2898,7 @@ font-size: 16px;
     top: -70px !important;
     left: -115px !important;
   }.team{
-    margin-left:-50px;
+    margin-left:-10px;
   }.teams{
     margin-left:10px;
   }.accreditation-title{
@@ -2922,6 +2923,7 @@ font-size: 16px;
     display:flex;
     margin-left:10px;
     flex-direction:column;
+    align-items:flex-start;
      flex: 1;
 }.pillarsOFBSI p{
   position:relative;
@@ -2938,6 +2940,7 @@ font-size: 16px;
     display:flex;
     margin-left:10px;
     flex-direction:column;
+    align-items:flex-start;
      flex: 1;
 
 }
@@ -3097,7 +3100,7 @@ font-size: 16px;
 
   
 }.aboutBSI p{
-    margin-left:-50px;
+    margin-left:-10px;
     margin-top:-10px;
 
 }.usAbout{
@@ -3262,7 +3265,7 @@ font-size: 16px;
     top: -70px !important;
     left: -115px !important;
   }.team{
-    margin-left:-50px;
+    margin-left:-10px;
   }.teams{
     margin-left:10px;
   }.accreditation-title{
@@ -3288,6 +3291,7 @@ font-size: 16px;
     margin-left:10px;
     flex-direction:column;
      flex: 1;
+     align-items: flex-start;
 }.pillarsOFBSI p{
   position:relative;
   padding: 10px 10px;
@@ -3304,6 +3308,7 @@ font-size: 16px;
     margin-left:10px;
     flex-direction:column;
      flex: 1;
+     align-items:flex-start;
 
 }
 
