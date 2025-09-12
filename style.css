@@ -129,7 +129,7 @@ html {
     font-weight: bold;
     flex: 1;               
     text-align: left;
-    font-size:20px;
+    font-size:18px;
     margin-left:-590px;
     padding:10px 690px;
     margin-top:-300px;
@@ -158,7 +158,7 @@ html {
 }.about-bsi p{
   position: relative;
   margin-left:-20px;
-  font-size:20px;
+  font-size:18px;
   font-weight: 599;
   font-weight:bold;
 }.promiseBSI h2{
@@ -171,7 +171,7 @@ html {
 .promiseBSI p{
   position: relative;
   margin-left:10px;
-  font-size:20px;
+  font-size:18px;
   font-weight:bold;
   text-align: center;
 
@@ -183,7 +183,7 @@ html {
     margin-top: 40px;
 }.stats p{
   margin-left:10px;
-  font-size:20px;
+  font-size:18px;
   font-weight: bold;
 
 }
@@ -247,12 +247,12 @@ html {
 }.internships p{
   margin-left:20px;
   margin-top:20px;
-  font-size:20px;
+  font-size:18px;
   font-weight:bold;
 
 }.paragraphsHome p{
   margin-top:-550px;
-  font-size:20px;
+  font-size:18px;
   margin-left:420px;
   padding: 100px 220px;
 }
@@ -448,7 +448,7 @@ ul {
     width: fit-content; 
     margin-top:55px;
 }.image-links p{
-  font-size:20px;
+  font-size:18px;
 }
 
 .image-container {
@@ -508,7 +508,7 @@ ul {
     text-align: center;
     margin-top: 10px;
     color: #0c3c80;
-    font-size:20px;
+    font-size:18px;
 }
 /* Individual container adjustments */
 .container1 {
@@ -790,7 +790,7 @@ ul {
     position:relative; 
     padding-left: 40px;
     margin-top: -35px;
-    font-size:20px;
+    font-size:18px;
     font-weight: normal;
 }
 .container1 {
@@ -848,12 +848,12 @@ ul {
     position:relative; 
     padding-left: 40px;
     margin-top: -30px;
-    font-size:20px;
+    font-size:18px;
     font-weight: normal;
     
 }
 .media{
-    font-size:20px;
+    font-size:18px;
     font-weight: normal;
 }.testimonial-header {
     display: flex;
@@ -899,7 +899,7 @@ ul {
 }
 
 .left-touch, .right-touch{
-    font-size: 20px;
+    font-size: 18px;
     color:#000;
     font-weight: normal;
    
@@ -1025,7 +1025,7 @@ left:0
     width:200px;
 
 }.aboutBSI p{
-    font-size:20px;
+    font-size:18px;
     margin-top: 220px;
     margin-left:-200px;
 }.aboutBSI {
@@ -1052,7 +1052,7 @@ left:0
     margin-top: 40px;
   
 }.teams{
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 100px;
 }.accreditation-title {
    
@@ -1068,7 +1068,7 @@ left:0
     font-size:30px;
     margin-top:-70px;
 }.accreditations p{
-    font-size:20px;
+    font-size:18px;
 }
 
 
@@ -1153,9 +1153,8 @@ left:0
 
 
 .accred-desc {
-    font-size: 16px;
     margin-top: -25px;
-    font-size: 20px;
+    font-size: 18px;
     margin-left:100px;
 }.faq-heading {
   text-align: center;
@@ -1419,12 +1418,11 @@ display: flex;
 .Progr p {
   overflow: hidden;
   margin-bottom: 40px;
-  font-size:20px;
+  font-size:18px;
     
 
   
 }
-
 /* Layout for larger screens */
 @media (min-width: 768px) {
   .Progr {
@@ -1454,7 +1452,7 @@ display: flex;
     text-decoration: underline;
     margin-top:-80px;
 }.missions-P{
-    font-size:20px;
+    font-size:18px;
     margin-left:100px;
    
 }.test{
@@ -1495,7 +1493,7 @@ display: flex;
 
 
 .consider p {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .stud-testimonials {
@@ -1870,7 +1868,7 @@ left:0
 }
 
 .whyBSI .feature p {
-  font-size: 20px;
+  font-size: 18px;
   
 }
 
@@ -2661,15 +2659,15 @@ left:0
    
       
   }.tabs a {
-    width: 45px;          /* adjust to control wrapping */
+    width: 45px;         
 }
-    .Home-tabs {
-    display: flex;           /* keep tabs in a row */
-    gap: 50px;
+     .Home-tabs {
+    display: flex;           
+    gap: 40px;
     position: relative;
     top: -90px;
-    right: -65px;
-    flex-wrap: nowrap;       /* don't wrap the tabs */
+    right: -100px;
+    flex-wrap: nowrap;     
 }.Home-tabs a{
   width:35px;
 }
@@ -2679,12 +2677,12 @@ left:0
     font-size: 14px;
     text-decoration: none;
     display: inline-block;
-    white-space: normal;     /* allows text inside to wrap */
-    max-width: 120px;        /* adjust width to force wrapping */
-     /* breaks long words if needed */
+    white-space: normal;    
+    max-width: 120px;        
+    
 }
 .tabsF {
-    position:absolute;       /* remove absolute offsets */
+    position:absolute;      
     top:60px;
     right: 0;
     justify-content: center;
@@ -2692,7 +2690,7 @@ left:0
     padding: 110px 0px;
   
 }.contact-tabs {
-    position: relative;       /* remove absolute offsets */
+    position: relative;      
     top: -80px;
     right: -70px;
     gap: 75px;
@@ -2706,7 +2704,7 @@ left:0
     margin-top:-500px;
 
 }.learn-tabs{
-    position: static;       /* remove absolute offsets */
+    position: static;      
     top: 0;
     right: 0;
     justify-content: center;
@@ -2766,7 +2764,6 @@ left:0
   position: relative;
   width: 100%;
   min-height: 100px;
-  /* Static fallback if pseudo-elements fail */
   background: url('images/finBack.avif') center/cover no-repeat;
   display: flex;
   flex-direction: column;
@@ -2775,7 +2772,7 @@ left:0
   padding:100px 0px;
   margin-top:-30px;
   text-align: center;
-  color: #fff;               /* make text white */
+  color: #fff;        
   overflow: hidden;
 }.service h2{
   color: black;
@@ -2893,13 +2890,13 @@ font-size: 16px;
 }.wealth{
   margin-left:-30px;
 }.about-bsi {
-      padding: 20px;           /* reduce padding for small screens */
-      margin-top: 50px;        /* adjust spacing */
-      background-size: cover; /* ensures image scales without cropping too much */
-      background-position: top; /* focus on top of image */
-      text-align: center;       /* optional: center text for better layout */
+      padding: 20px;          
+      margin-top: 50px;       
+      background-size: cover; 
+      background-position: top; 
+      text-align: center;     
       font-size: 14px; 
-      background-repeat: no-repeat;         /* smaller text on mobile */
+      background-repeat: no-repeat;         
   }.accAndTraining {
     height: auto !important;
     max-width: 35vw !important;
@@ -2914,8 +2911,9 @@ font-size: 16px;
   }.accreditation-title{
     margin-top:30px;
   }.accred-desc{
-    margin-left:10px;
+    margin-left:20px;
     margin-top:10px;
+   
   }.card{
     margin-left:30px;
   }.card p{
@@ -3037,15 +3035,15 @@ font-size: 16px;
    
       
   }.tabs a {
-    width: 45px;          /* adjust to control wrapping */
+    width: 45px;          
 }
     .Home-tabs {
-    display: flex;           /* keep tabs in a row */
-    gap: 50px;
+    display: flex;           
+    gap: 40px;
     position: relative;
     top: -90px;
-    right: -65px;
-    flex-wrap: nowrap;       /* don't wrap the tabs */
+    right: -100px;
+    flex-wrap: nowrap;      
 }.Home-tabs a{
   width:35px;
 }
@@ -3055,12 +3053,12 @@ font-size: 16px;
     font-size: 14px;
     text-decoration: none;
     display: inline-block;
-    white-space: normal;     /* allows text inside to wrap */
-    max-width: 120px;        /* adjust width to force wrapping */
-     /* breaks long words if needed */
+    white-space: normal; 
+    max-width: 120px;        
+   
 }
 .tabsF {
-    position:absolute;       /* remove absolute offsets */
+    position:absolute;      
     top:60px;
     right: 0;
     justify-content: center;
@@ -3068,7 +3066,7 @@ font-size: 16px;
     padding: 110px 0px;
   
 }.contact-tabs {
-    position: relative;       /* remove absolute offsets */
+    position: relative;     
     top: -80px;
     right: -58px;
     gap: 80px;
@@ -3082,7 +3080,7 @@ font-size: 16px;
     margin-top:-500px;
 
 }.learn-tabs{
-    position: static;       /* remove absolute offsets */
+    position: static;      
     top: 0;
     right: 0;
     justify-content: center;
@@ -3141,7 +3139,6 @@ font-size: 16px;
   position: relative;
   width: 100%;
   min-height: 100px;
-  /* Static fallback if pseudo-elements fail */
   background: url('images/finBack.avif') center/cover no-repeat;
   display: flex;
   flex-direction: column;
@@ -3150,7 +3147,7 @@ font-size: 16px;
   padding:100px 0px;
   margin-top:-30px;
   text-align: center;
-  color: #fff;               /* make text white */
+  color: #fff;              
   overflow: hidden;
 }.service h2{
   color: black;
@@ -3271,13 +3268,13 @@ font-size: 16px;
 }.wealth{
   margin-left:-30px;
 }.about-bsi {
-      padding: 20px;           /* reduce padding for small screens */
-      margin-top: 50px;        /* adjust spacing */
-      background-size: cover; /* ensures image scales without cropping too much */
-      background-position: top; /* focus on top of image */
-      text-align: center;       /* optional: center text for better layout */
+      padding: 20px;        
+      margin-top: 50px;      
+      background-size: cover; 
+      background-position: top;
+      text-align: center;      
       font-size: 14px; 
-      background-repeat: no-repeat;         /* smaller text on mobile */
+      background-repeat: no-repeat;        
   }.accAndTraining {
     height: auto !important;
     max-width: 35vw !important;
@@ -3292,9 +3289,9 @@ font-size: 16px;
   }.accreditation-title{
     margin-top:30px;
   }.accred-desc{
-    margin-left:10px;
+    margin-left:20px;
     margin-top:10px;
-    padding:0px 400px;
+   
   }.card{
     margin-left:30px;
   }.card p{
