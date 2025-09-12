@@ -743,24 +743,32 @@ ul {
    
 }.address2{
     font-style: italic;
-    margin-top:-30px;
+    margin-top:-38px;
     padding-left:30px;
     color: #000;
     vertical-align: bottom;
     font-weight: normal;
+    font-size:18px;
 }.address3{
     font-style: italic;
     color:#000;
     vertical-align: bottom;
     font-weight: normal;
+    font-size:18px;
 }.address1{
   color:#000;
   vertical-align:bottom;
   font-weight: normal;
+  font-size: 18px;
+  margin-top:60px;
+}.addresses{
+  margin-top:-5px;
 }
 .phone{
     height: 20px;
     font-weight: normal;
+   
+   
 }.phone1{
     margin-top:-30px;
     position: relative;
@@ -768,14 +776,15 @@ ul {
     font-style:italic;
     color:#000;
     font-weight: normal;
+    font-size:18px;
 }.jozi{
     padding-left: 500px;
     position:relative;
-    margin-top: -215px;
+    margin-top: -225px;
     font-weight: normal;
 }.durban{
     padding-left:900px ;
-    margin-top:-210px;
+    margin-top:-230px;
     position:relative;
     white-space: nowrap;
     font-weight: normal;
@@ -783,7 +792,9 @@ ul {
     font-size:12px;
     font-weight: normal;
     
-}.whatsapp{
+
+  }
+  .whatsapp{
     height: 30px;
     font-weight: normal;
 }.phoneapp{
@@ -840,6 +851,7 @@ ul {
 .locations{
     height:30px;
     font-weight: normal;
+ 
 
 }.mails{
     height:20px;
@@ -888,14 +900,18 @@ ul {
  
 }.get-in h2 {
     text-align: center;
-    font-size: 28px;
+    font-size: 18px;
     color:#000;
     line-height: 1.2;
     margin: 0;
     font-weight: normal;
-}.office,
+}.office{
+  font-weight:normal;
+  font-size:18px;
+}
 .office1{
   font-weight: normal;
+  font-size:18px;
 }
 
 .left-touch, .right-touch{
