@@ -71,7 +71,7 @@ html {
   align-items: center;
   width: 100%;
   margin: 50px 0;
-  margin-left:-350px;
+  margin-left:-250px;
   margin-top:50px;
 }.watch-youtube {
   text-align: center;
@@ -251,9 +251,9 @@ html {
   font-weight:bold;
 
 }.paragraphsHome p{
-  margin-top:-550px;
+  margin-top:-500px;
   font-size:18px;
-  margin-left:420px;
+  margin-left:520px;
   padding: 100px 220px;
 }
 
@@ -893,7 +893,7 @@ ul {
     justify-content: center;
     gap: 10px;
     margin: 40px 0;
-    margin-top: -80px;
+    margin-top: -150px;
     margin-left:-800px;
     color:#000;
     font-weight: normal;
@@ -1745,7 +1745,7 @@ left:0
   max-width: 1000px; 
   width: 90%;        
   font-family: Arial, sans-serif;
-  margin-top:-10px;
+  margin-top:-70px;
 }.cta-section1 {
    background-color: #0c3c80;
   padding: 40px 20px;
