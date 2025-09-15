@@ -3062,6 +3062,8 @@ font-size: 16px;
         gap: 5px;
         margin: 60px 0 30px 0;
 
+    }.backgound-English h2{
+      margin-left:-25px;
     }
     
 }/* Very small phones */
@@ -3459,6 +3461,8 @@ font-size: 16px;
         gap: 5px;
         margin: 60px 0 30px 0;
 
+    }.backgound-English h2{
+      margin-left:-25px;
     }
 }
 
