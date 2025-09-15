@@ -897,8 +897,43 @@ ul {
     margin-left:-800px;
     color:#000;
     font-weight: normal;
- 
-}.get-in h2 {
+
+  }.get-inAcc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 40px 0;
+    margin-top: -50px;
+    margin-left:-800px;
+    color:#000;
+    font-weight: normal;
+
+  }.get-inContact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 40px 0;
+    margin-top: -30px;
+    margin-left:-800px;
+    color:#000;
+    font-weight: normal;
+
+  }
+  .get-inColl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 40px 0;
+    margin-top: -50px;
+    margin-left:-800px;
+    color:#000;
+    font-weight: normal;
+
+  }
+  .get-in h2 {
     text-align: center;
     font-size: 18px;
     color:#000;
@@ -1746,7 +1781,30 @@ left:0
   width: 90%;        
   font-family: Arial, sans-serif;
   margin-top:-70px;
-}.cta-section1 {
+}.cta-sectionAcc {
+   background-color: #0c3c80;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 15px;
+  color: #fff;
+  margin: 100px auto;
+  max-width: 1000px; 
+  width: 90%;        
+  font-family: Arial, sans-serif;
+  margin-top:-10px;
+}.cta-sectionColl {
+   background-color: #0c3c80;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 15px;
+  color: #fff;
+  margin: 100px auto;
+  max-width: 1000px; 
+  width: 90%;        
+  font-family: Arial, sans-serif;
+  margin-top:-10px;
+}
+.cta-section1 {
    background-color: #0c3c80;
   padding: 40px 20px;
   text-align: center;
@@ -2764,16 +2822,6 @@ left:0
     text-align: center;
     margin-left:-10px;
 }
-
-.get-inAcc{
-     display: flex;
-    align-items: center;
-    gap: 10px;
-    margin: 40px 0;
-    margin-top: 300px;
-   
-
-}
 .contact-logo{
     width: 300px;
 }.finexBacks {
@@ -2976,6 +3024,22 @@ font-size: 16px;
   margin-left:100px;
   width:30px;
 }
+.get-inColl {
+        flex-direction: column;
+        gap: 5px;
+        margin: 60px 0 30px 0;
+
+    } .get-inContact{
+        flex-direction: column;
+        gap: 5px;
+        margin: 60px 0 30px 0;
+
+    } .get-inAcc {
+        flex-direction: column;
+        gap: 5px;
+        margin: 60px 0 30px 0;
+
+    }
     
 }/* Very small phones */
 @media (max-width: 480px) {
@@ -3139,15 +3203,6 @@ font-size: 16px;
     padding:150px 0px;
     text-align: center;
     margin-left:-10px;
-}
-
-.get-inAcc{
-     display: flex;
-    align-items: center;
-    gap: 10px;
-    margin: 40px 0;
-    margin-top: 300px;
-   
 
 }.contact-logo{
     width: 300px;
@@ -3353,7 +3408,22 @@ font-size: 16px;
 }.video-container-Testimony{
   margin-left:100px;
   width:30px;
-}
+} .get-inColl {
+        flex-direction: column;
+        gap: 5px;
+        margin: 60px 0 30px 0;
+
+    } .get-inContact{
+        flex-direction: column;
+        gap: 5px;
+        margin: 60px 0 30px 0;
+
+    } .get-inAcc {
+        flex-direction: column;
+        gap: 5px;
+        margin: 60px 0 30px 0;
+
+    }
 }
 
 
