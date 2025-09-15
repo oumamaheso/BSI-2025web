@@ -19,11 +19,14 @@
       margin-top: 40px;
     }
 
-    .table-container {
-      overflow-x:scroll;
-      -webkit-overflow-scrolling:touch;
-      border: 1px solid #ccc;
-    }
+      .table-wrapper {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
 
     table {
       border-collapse: collapse;
@@ -54,7 +57,7 @@
         <header>
              <div class="Coll">
                 <img src="images/BSIColl.png" class="LogoC">
-                <div class="tabsC">
+                <div class="tabsColl">
                 <a href="college.htm" class="Homepage">Back to College</a>
                 </div>
              <!---<div class="FinancialAcc-page2">---->
@@ -113,7 +116,7 @@
                     <li>Payroll Manager</li>
                 </ul>
              </div>
-             <div class="about-course">
+             <div class="table-wrapper">
   <h2>Accreditations</h2>
 
   <details>
@@ -126,7 +129,7 @@
       <li>Financial Accountant: +12 months</li>
     </ul>
     <p>Subjects:</p>
-    <div class="table-container">
+    <div class="table-wrapper">
       <table>
         <tr>
           <th>Level</th>
@@ -192,7 +195,7 @@
   </ul>
 
   <p>Subjects:</p>
-  <div class="table-container">
+  <div class="table-wrapper">
     <table>
       <tr>
         <th>Level</th>
@@ -258,7 +261,7 @@
   </ul>
 
   <p>Subjects:</p>
-  <div class="table-container">
+  <div class="table-wrapper">
     <table>
       <tr>
         <th>Level</th>
@@ -306,10 +309,11 @@
 </div>
 
 
-  <div class="about-course">
-    <h2>Curriculum Breakdown</h2>
+ 
+    <div class="table-wrapper">
+          <h2>Curriculum Breakdown</h2>
     <p class="scroll-note">📱 Swipe left/right to view the full table</p>
-    <div class="table-container">
+
       <table>
         <tr>
           <th>Bookkeeper Level (NQF 3)<br>SAQA ID: 58375 | 120 Credits</th>
@@ -349,7 +353,7 @@
         </tr>
       </table>
     </div>
-  </div>
+ 
 
       
              <div class="about-course">
@@ -435,5 +439,6 @@
     </body>
 
 </html>
+
 
 

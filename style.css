@@ -1038,6 +1038,14 @@ left:0
   gap: 1px;
   padding: 20px;
   background-color: transparent;
+}.tabsColl{
+  position:relative;
+  top: -380px;
+  right:-800px;
+  display: flex;
+  gap: 1px;
+  padding: 20px;
+  background-color: transparent;
 }
 .Homepage{
   text-decoration: none;
@@ -1277,7 +1285,8 @@ button:hover {
   background-color: #f4f8fc;
   
 
-}.about-course h2{
+}.about-course h2,
+.table-wrapper h2{
   color:#0c3c80;
   text-align: center;
   text-decoration: underline;
@@ -2714,7 +2723,21 @@ left:0
     flex-wrap: wrap;  
    
     
-  } .about-tab{
+  } .tabsColl {
+    display: flex;          
+    position: relative;
+    top: -225px;
+    right: -215px;
+    flex-wrap: wrap;
+   
+   
+    
+  }.tabsColl a{
+    width:50px;
+  }.tabsColl a{
+    width:50px;
+  }
+  .about-tab{
   position: absolute;
   text-decoration: none;
   font-size:14px;
@@ -3093,6 +3116,19 @@ font-size: 16px;
   }.tabsC a{
     width:50px;
   }.tabsC a{
+    width:50px;
+  }.tabsColl {
+    display: flex;          
+    position: relative;
+    top: -225px;
+    right: -215px;
+    flex-wrap: wrap;
+   
+   
+    
+  }.tabsColl a{
+    width:50px;
+  }.tabsColl a{
     width:50px;
   }
 
