@@ -347,12 +347,12 @@ right:330px;
 }
 
 .LogoC {
-height: 550px;
-width:700px;
+height: 250px;
+width:500px;
 display: block;
 position:relative;
-margin-top:-180px;
-margin-left:-120px;
+margin-top:-60px;
+margin-left:-100px;
 }
 
 .logo-header{
@@ -1025,7 +1025,7 @@ left:0
   background-color: transparent;
 }.tabsC{
   position:relative;
-  top: -380px;
+  top: -200px;
   right:-690px;
   display: flex;
   gap: 1px;
@@ -1262,10 +1262,168 @@ button:hover {
 }.finance{
     height: 183px;
 }.Progr {
-  max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
-}.Acc-subjects,.Eng-subjects ,.Off-subjects,.Buss-subjects{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* always 3 columns */
+    gap: 0px; /* spacing between blocks */
+    max-width: 1200px; /* optional: limit total width */
+    margin: 0 auto; /* center the grid */
+    margin-top:-100px;
+    
+}.Progr h2{
+  color: #0c3c80;
+
+}.Eng-subjects{
+  text-decoration: none;
+}.Buss-subjects{
+  text-decoration: none;
+}
+
+.program {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+  }.program3 h2{
+    color: #0c3c80;
+  }
+  .program3{
+  margin-left:920px;
+  margin-top:-480px;
+
+}.program3 p{
+margin-top:-5px;
+
+}.program2{
+  margin-top:-20px;
+}.program2 h2{
+  margin-bottom:5px;
+
+}
+
+
+.program img {
+    max-width:300px;    /* make image fill program width */
+    height: auto;
+    border-radius: 0px;
+    transition: transform 0.3s;
+}
+
+.program img:hover {
+    transform: scale(1.05);
+}
+
+.program h2 {
+    color: #0c3c80;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-left: none; /* remove left border since centered */
+    padding-left: 0;
+}
+
+.program p {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.program a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #2a7ae2;
+    text-decoration: none;
+    font-weight: bold;
+
+  }.Progr {
+  display: flex;
+  flex-direction: column;
+ 
+  gap: 20px; /* space between programs */
+}
+
+/* Common program styles */
+.program1, .program2, .program3 {
+  width: 320px;      /* same width */
+}
+
+.backLang, .backLang1, .backLang2 {
+  height: 200px;           /* fixed height for all images */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}.program2{
+  margin-top:2px;
+  margin-left:-800px;
+}.program3{
+  margin-top:-593px;
+  margin-left:850px;
+ 
+}.program3 p{
+  margin-top:-30px;
+}
+
+/* Headings inside backLang divs */
+.backLang h2, .backLang1 h2 ,.backLang2 h2 {
+  text-align: center;
+  font-size: 22px;       /* adjust to fit height */
+  line-height: 1.2;      /* prevents overflow */
+  margin: 0;             /* remove default h2 margin */
+  color:white;
+  text-transform: uppercase;
+}
+
+
+
+/* Make whole card clickable */
+.Eng-subjects, .Off-subjects {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+  .whySA h2{
+  text-align: center;
+  color: #0c3c80;
+  font-size:30px;
+  text-decoration: underline;
+  margin-top:10px;
+}.backLang {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;   /* vertical center text */
+  justify-content: center; /* horizontal center text */
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-image: url("images/English.jpeg");
+}.backLang1 {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;   /* vertical center text */
+  justify-content: center; /* horizontal center text */
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-image: url("images/CIST.jpeg");
+}.backLang2 {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;   /* vertical center text */
+  justify-content: center; /* horizontal center text */
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-image: url("images/financialAcc.jpeg");
+}
+
+  .Acc-subjects,.Eng-subjects ,.Off-subjects,.Buss-subjects{
   color:#0c3c80;
   padding: 2px 6px; 
   font-weight: bold;
@@ -1443,35 +1601,6 @@ display: flex;
 }.FinancialAcc-page2 h2{
   color:#0c3c80;
   text-decoration: underline;
-}
-.Progr h2 {
-  color:#0c3c80;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-left: 5px solid #2a7ae2;
-  padding-left: 10px;
-}
-
-.Progr img {
-  width: 200px;
-    height: auto;
-    margin-right: 20px;
-    float: left;
-    border-radius: 8px;
-}
-
-.Progr img:hover {
-  transform: scale(1.05);
-}
-
-.Progr p {
-  overflow: hidden;
-  margin-bottom: 40px;
-  font-size:18px;
-    
-
-  
 }
 
 @media (min-width: 768px) {
